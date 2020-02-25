@@ -13,6 +13,8 @@
 		E9FB2B3A24056A3500D6A945 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9FB2B3824056A3500D6A945 /* Main.storyboard */; };
 		E9FB2B3C24056A3600D6A945 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9FB2B3B24056A3600D6A945 /* Assets.xcassets */; };
 		E9FB2B3F24056A3600D6A945 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9FB2B3D24056A3600D6A945 /* LaunchScreen.storyboard */; };
+		E9FB2B4724056EA500D6A945 /* Podfile.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9FB2B4624056EA500D6A945 /* Podfile.strings */; };
+		E9FB2B4D240588EB00D6A945 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E9FB2B4C240588EB00D6A945 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E9FB2B3B24056A3600D6A945 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9FB2B3E24056A3600D6A945 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9FB2B4024056A3600D6A945 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9FB2B4624056EA500D6A945 /* Podfile.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Podfile.strings; sourceTree = "<group>"; };
+		E9FB2B4C240588EB00D6A945 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,8 @@
 		E9FB2B2624056A3400D6A945 = {
 			isa = PBXGroup;
 			children = (
+				E9FB2B4C240588EB00D6A945 /* .gitignore */,
+				E9FB2B4624056EA500D6A945 /* Podfile.strings */,
 				E9FB2B3124056A3500D6A945 /* NiceWhetherToTravel */,
 				E9FB2B3024056A3500D6A945 /* Products */,
 			);
@@ -56,6 +62,10 @@
 		E9FB2B3124056A3500D6A945 /* NiceWhetherToTravel */ = {
 			isa = PBXGroup;
 			children = (
+				E9FB2B4B24056F1D00D6A945 /* Protocols */,
+				E9FB2B4A24056F1700D6A945 /* Model */,
+				E9FB2B4924056F0D00D6A945 /* ViewModel */,
+				E9FB2B4824056F0500D6A945 /* View */,
 				E9FB2B3224056A3500D6A945 /* AppDelegate.swift */,
 				E9FB2B3424056A3500D6A945 /* SceneDelegate.swift */,
 				E9FB2B3624056A3500D6A945 /* ViewController.swift */,
@@ -65,6 +75,34 @@
 				E9FB2B4024056A3600D6A945 /* Info.plist */,
 			);
 			path = NiceWhetherToTravel;
+			sourceTree = "<group>";
+		};
+		E9FB2B4824056F0500D6A945 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E9FB2B4924056F0D00D6A945 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E9FB2B4A24056F1700D6A945 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E9FB2B4B24056F1D00D6A945 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +163,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9FB2B4D240588EB00D6A945 /* .gitignore in Resources */,
 				E9FB2B3F24056A3600D6A945 /* LaunchScreen.storyboard in Resources */,
 				E9FB2B3C24056A3600D6A945 /* Assets.xcassets in Resources */,
+				E9FB2B4724056EA500D6A945 /* Podfile.strings in Resources */,
 				E9FB2B3A24056A3500D6A945 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,7 +333,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Lakobib.NiceWhetherToTravel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,7 +350,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Lakobib.NiceWhetherToTravel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
