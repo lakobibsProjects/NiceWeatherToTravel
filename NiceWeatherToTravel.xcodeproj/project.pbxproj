@@ -7,27 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E98321C72406CC62003642FC /* SightsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98321C62406CC62003642FC /* SightsViewController.swift */; };
+		E98321C92406CE65003642FC /* SightDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98321C82406CE65003642FC /* SightDescriptionViewController.swift */; };
+		E98321CB2406D453003642FC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E98321CA2406D453003642FC /* Default-568h@2x.png */; };
 		E9FB2B3324056A3500D6A945 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FB2B3224056A3500D6A945 /* AppDelegate.swift */; };
 		E9FB2B3524056A3500D6A945 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FB2B3424056A3500D6A945 /* SceneDelegate.swift */; };
-		E9FB2B3724056A3500D6A945 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FB2B3624056A3500D6A945 /* ViewController.swift */; };
 		E9FB2B3A24056A3500D6A945 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9FB2B3824056A3500D6A945 /* Main.storyboard */; };
 		E9FB2B3C24056A3600D6A945 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9FB2B3B24056A3600D6A945 /* Assets.xcassets */; };
 		E9FB2B3F24056A3600D6A945 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9FB2B3D24056A3600D6A945 /* LaunchScreen.storyboard */; };
 		E9FB2B4724056EA500D6A945 /* Podfile.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9FB2B4624056EA500D6A945 /* Podfile.strings */; };
 		E9FB2B4D240588EB00D6A945 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E9FB2B4C240588EB00D6A945 /* .gitignore */; };
+		E9FB2B4F24058D5B00D6A945 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FB2B4E24058D5B00D6A945 /* SearchViewController.swift */; };
+		E9FB2B512405BAEF00D6A945 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FB2B502405BAEF00D6A945 /* WeatherViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E9FB2B2F24056A3500D6A945 /* NiceWhetherToTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NiceWhetherToTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E98321C62406CC62003642FC /* SightsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SightsViewController.swift; sourceTree = "<group>"; };
+		E98321C82406CE65003642FC /* SightDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SightDescriptionViewController.swift; sourceTree = "<group>"; };
+		E98321CA2406D453003642FC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E9FB2B2F24056A3500D6A945 /* NiceWeatherToTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NiceWeatherToTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9FB2B3224056A3500D6A945 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9FB2B3424056A3500D6A945 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E9FB2B3624056A3500D6A945 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E9FB2B3924056A3500D6A945 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E9FB2B3B24056A3600D6A945 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9FB2B3E24056A3600D6A945 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9FB2B4024056A3600D6A945 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9FB2B4624056EA500D6A945 /* Podfile.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Podfile.strings; sourceTree = "<group>"; };
 		E9FB2B4C240588EB00D6A945 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		E9FB2B4E24058D5B00D6A945 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		E9FB2B502405BAEF00D6A945 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,9 +52,10 @@
 		E9FB2B2624056A3400D6A945 = {
 			isa = PBXGroup;
 			children = (
+				E98321CA2406D453003642FC /* Default-568h@2x.png */,
 				E9FB2B4C240588EB00D6A945 /* .gitignore */,
 				E9FB2B4624056EA500D6A945 /* Podfile.strings */,
-				E9FB2B3124056A3500D6A945 /* NiceWhetherToTravel */,
+				E9FB2B3124056A3500D6A945 /* NiceWeatherToTravel */,
 				E9FB2B3024056A3500D6A945 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +63,12 @@
 		E9FB2B3024056A3500D6A945 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E9FB2B2F24056A3500D6A945 /* NiceWhetherToTravel.app */,
+				E9FB2B2F24056A3500D6A945 /* NiceWeatherToTravel.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E9FB2B3124056A3500D6A945 /* NiceWhetherToTravel */ = {
+		E9FB2B3124056A3500D6A945 /* NiceWeatherToTravel */ = {
 			isa = PBXGroup;
 			children = (
 				E9FB2B4B24056F1D00D6A945 /* Protocols */,
@@ -68,18 +77,21 @@
 				E9FB2B4824056F0500D6A945 /* View */,
 				E9FB2B3224056A3500D6A945 /* AppDelegate.swift */,
 				E9FB2B3424056A3500D6A945 /* SceneDelegate.swift */,
-				E9FB2B3624056A3500D6A945 /* ViewController.swift */,
 				E9FB2B3824056A3500D6A945 /* Main.storyboard */,
 				E9FB2B3B24056A3600D6A945 /* Assets.xcassets */,
 				E9FB2B3D24056A3600D6A945 /* LaunchScreen.storyboard */,
 				E9FB2B4024056A3600D6A945 /* Info.plist */,
 			);
-			path = NiceWhetherToTravel;
+			path = NiceWeatherToTravel;
 			sourceTree = "<group>";
 		};
 		E9FB2B4824056F0500D6A945 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E9FB2B4E24058D5B00D6A945 /* SearchViewController.swift */,
+				E9FB2B502405BAEF00D6A945 /* WeatherViewController.swift */,
+				E98321C62406CC62003642FC /* SightsViewController.swift */,
+				E98321C82406CE65003642FC /* SightDescriptionViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -108,9 +120,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E9FB2B2E24056A3400D6A945 /* NiceWhetherToTravel */ = {
+		E9FB2B2E24056A3400D6A945 /* NiceWeatherToTravel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E9FB2B4324056A3600D6A945 /* Build configuration list for PBXNativeTarget "NiceWhetherToTravel" */;
+			buildConfigurationList = E9FB2B4324056A3600D6A945 /* Build configuration list for PBXNativeTarget "NiceWeatherToTravel" */;
 			buildPhases = (
 				E9FB2B2B24056A3400D6A945 /* Sources */,
 				E9FB2B2C24056A3400D6A945 /* Frameworks */,
@@ -120,9 +132,9 @@
 			);
 			dependencies = (
 			);
-			name = NiceWhetherToTravel;
+			name = NiceWeatherToTravel;
 			productName = NiceWhetherToTravel;
-			productReference = E9FB2B2F24056A3500D6A945 /* NiceWhetherToTravel.app */;
+			productReference = E9FB2B2F24056A3500D6A945 /* NiceWeatherToTravel.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -140,7 +152,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E9FB2B2A24056A3400D6A945 /* Build configuration list for PBXProject "NiceWhetherToTravel" */;
+			buildConfigurationList = E9FB2B2A24056A3400D6A945 /* Build configuration list for PBXProject "NiceWeatherToTravel" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -153,7 +165,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E9FB2B2E24056A3400D6A945 /* NiceWhetherToTravel */,
+				E9FB2B2E24056A3400D6A945 /* NiceWeatherToTravel */,
 			);
 		};
 /* End PBXProject section */
@@ -168,6 +180,7 @@
 				E9FB2B3C24056A3600D6A945 /* Assets.xcassets in Resources */,
 				E9FB2B4724056EA500D6A945 /* Podfile.strings in Resources */,
 				E9FB2B3A24056A3500D6A945 /* Main.storyboard in Resources */,
+				E98321CB2406D453003642FC /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,7 +191,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9FB2B3724056A3500D6A945 /* ViewController.swift in Sources */,
+				E9FB2B4F24058D5B00D6A945 /* SearchViewController.swift in Sources */,
+				E98321C72406CC62003642FC /* SightsViewController.swift in Sources */,
+				E9FB2B512405BAEF00D6A945 /* WeatherViewController.swift in Sources */,
+				E98321C92406CE65003642FC /* SightDescriptionViewController.swift in Sources */,
 				E9FB2B3324056A3500D6A945 /* AppDelegate.swift in Sources */,
 				E9FB2B3524056A3500D6A945 /* SceneDelegate.swift in Sources */,
 			);
@@ -330,8 +346,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Lakobib.NiceWhetherToTravel;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = Lakobib.NiceWeatherToTravel;
+				PRODUCT_NAME = NiceWeatherToTravel;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -347,8 +363,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Lakobib.NiceWhetherToTravel;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = Lakobib.NiceWeatherToTravel;
+				PRODUCT_NAME = NiceWeatherToTravel;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -357,7 +373,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E9FB2B2A24056A3400D6A945 /* Build configuration list for PBXProject "NiceWhetherToTravel" */ = {
+		E9FB2B2A24056A3400D6A945 /* Build configuration list for PBXProject "NiceWeatherToTravel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E9FB2B4124056A3600D6A945 /* Debug */,
@@ -366,7 +382,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E9FB2B4324056A3600D6A945 /* Build configuration list for PBXNativeTarget "NiceWhetherToTravel" */ = {
+		E9FB2B4324056A3600D6A945 /* Build configuration list for PBXNativeTarget "NiceWeatherToTravel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E9FB2B4424056A3600D6A945 /* Debug */,
