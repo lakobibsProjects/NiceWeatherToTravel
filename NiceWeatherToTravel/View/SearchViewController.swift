@@ -10,9 +10,11 @@ import UIKit
 
 class SearchViewController: UIViewController {
 
+    @IBOutlet weak var searchBar: UISearchBar!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        searchBar.delegate = self
         // Do any additional setup after loading the view.
     }
     
@@ -27,4 +29,8 @@ class SearchViewController: UIViewController {
     }
     */
 
+}
+
+extension SearchViewController: UISearchBarDelegate{
+    
 }

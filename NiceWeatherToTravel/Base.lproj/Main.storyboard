@@ -10,7 +10,7 @@
         <!--Search View Controller-->
         <scene sceneID="oa0-sU-MdJ">
             <objects>
-                <viewController id="0Xd-tM-ipe" customClass="SearchViewController" customModule="NiceWhetherToTravel" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="0Xd-tM-ipe" customClass="SearchViewController" customModule="NiceWeatherToTravel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5CZ-41-hUf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -67,6 +67,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="AgP-A9-KFj"/>
                     </view>
+                    <connections>
+                        <outlet property="searchBar" destination="Gbf-nZ-6eh" id="tYP-ki-LC6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X4p-Gi-Vsv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -75,7 +78,7 @@
         <!--Weather View Controller-->
         <scene sceneID="8TW-h5-4f6">
             <objects>
-                <viewController id="5JK-ag-5Ar" customClass="WeatherViewController" customModule="NiceWhetherToTravel" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="5JK-ag-5Ar" customClass="WeatherViewController" customModule="NiceWeatherToTravel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ADQ-xd-MaZ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -200,7 +203,7 @@
         <!--Sights View Controller-->
         <scene sceneID="hPV-bj-c5b">
             <objects>
-                <viewController id="HNS-sn-H8Y" customClass="SightsViewController" customModule="NiceWhetherToTravel" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="HNS-sn-H8Y" customClass="SightsViewController" customModule="NiceWeatherToTravel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5g7-d5-EOb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -277,7 +280,7 @@
         <!--Sight Description View Controller-->
         <scene sceneID="Rv5-cd-vc8">
             <objects>
-                <viewController id="sBf-s4-gvh" customClass="SightDescriptionViewController" customModule="NiceWhetherToTravel" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="sBf-s4-gvh" customClass="SightDescriptionViewController" customModule="NiceWeatherToTravel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qyk-5C-IyO">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

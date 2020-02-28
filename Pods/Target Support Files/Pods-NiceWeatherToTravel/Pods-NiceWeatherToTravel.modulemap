@@ -1,0 +1,6 @@
+framework module Pods_NiceWeatherToTravel {
+  umbrella header "Pods-NiceWeatherToTravel-umbrella.h"
+
+  export *
+  module * { export * }
+}
