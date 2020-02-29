@@ -8,6 +8,7 @@
 
 import Foundation
 import Alamofire
+import ObjectMapper
 
 class WeatherProvider{
     
@@ -15,11 +16,30 @@ class WeatherProvider{
     //string for determinate language of search
     var local: String = "uk"
     let APIKEY = "&appid=1c9567cd628a4dbe95f10c003ddb3c70"
-    /*var weatherArray: [Weather]
+    var weatherForecast: WeatherForecast?
+
     
-    func GetWeatherBySityName(sityName: String) -> [Weather]{
-        var result: [Weather]
-        let url = URL(fileURLWithPath: "\(BASEURL)\(sityName),\(local),\(APIKEY)")
+    //var weatherArray: [Weather]
+    
+    func GetWeatherBySityName(sityName: String) -> WeatherForecast?{
+        //var result: [Weather]
+        let urlString = "\(BASEURL)\(sityName),\(local),\(APIKEY)"
+        //let url = URL(fileURLWithPath: urlString)
+        //var response: AFDataResponse<WeatherForecast?>?
+        
+       /* AF.request(urlString).responseJSON{ (response: AFDataResponse<WeatherForecast>)in
+            let responseObject = response.result
+            
+        }*/
+        
+        AF.request(
+            urlString,
+            method: .get,
+            headers: nil).responseJSON {
+                response in
+            let Forecast = Mapper<WeatherForecast>().map(JSONObject:response.value)
+                self.weatherForecast = Forecast
+        }
         /*
         AF.request(url).responseJSON { response in
             guard let data = response.data else {return}
@@ -30,17 +50,17 @@ class WeatherProvider{
             catch{
                 print("Encoding error \(error)")
             }*/
-           
+           return weatherForecast ?? nil
         }
             
-        return result
-    }
+        //return result
+    
     
     init(sityName: String) {
         
         
-        weatherArray = []
-    }*/
+        //weatherArray = []
+    }
     
     private func KelvinToCelsiusConverter(_ kelvinTemperature: Double) -> Double{
         return kelvinTemperature - 271.15

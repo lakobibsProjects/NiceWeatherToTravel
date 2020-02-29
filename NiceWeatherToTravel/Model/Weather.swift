@@ -217,7 +217,7 @@ class City: Mappable{
 }
 
 
-class WeatherForecast: Mappable{
+class WeatherForecast: Mappable, Any{
     var fiveDayForecast: [OneTimespanForecast]?
     var city: City?
     
