@@ -12,8 +12,9 @@ import ObjectMapper
 
 struct CityList{
     
-    func GetCities() -> [String]{
-        var result: [String] = []
+    //TODO: too long download
+    func GetCities() -> [ParsedCity]{
+        var result: [ParsedCity] = []
         guard let path = Bundle.main.path(forResource: "city_list", ofType: "json") else { return []}
         let ralativePath: URL = URL(fileURLWithPath: path)
         
@@ -22,14 +23,13 @@ struct CityList{
             method: .get,
             headers: nil).responseJSON {
                 response in
-                print ("request engaged")
+                print("In request")
                 if let cities = Mapper<CitiesToParse>().map(JSONObject:response.value){
-                    print("if engaged")
+                    print("In if")                    
                     for city in cities.cities!{
-                        result.append(city.name!)
+                        result.append(city)
                     }
                 }
-
         }
 
        return result

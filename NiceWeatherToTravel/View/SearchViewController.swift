@@ -13,15 +13,14 @@ class SearchViewController: UIViewController {
     @IBOutlet weak var searchBar: UISearchBar!
     @IBOutlet weak var SearchresultTableView: UITableView!
     
-    let cityList = CityList()
-    var citys: [String] = []
+    let viewModel: SearchViewModel = SearchViewModel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         searchBar.delegate = self
-        citys = self.cityList.GetCities()
-        
+        searchBar.searchTextField.textColor = UIColor.white
     }
+
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -45,12 +44,12 @@ extension SearchViewController: UISearchBarDelegate{
 
 extension SearchViewController: UITableViewDataSource, UITableViewDelegate{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return citys.count
+        return viewModel.GetAppropriatedSearchResults(searchedText: "", numberOfResults: 100).capacity
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "searchCell")
-        cell?.textLabel?.text = citys[indexPath.row]
+        cell?.textLabel?.text = viewModel.GetAppropriatedSearchResults(searchedText: "", numberOfResults: 100)[indexPath.row]
         cell?.textLabel?.textColor = UIColor.white
         
         return cell!

@@ -9,21 +9,27 @@
 import Foundation
 
 class SearchViewModel{
-    //private let provider = WeatherProvider(sityName: <#String#>)
     private let sities = CityList().GetCities()
+    private var sityNames: [String]
     
-    func GetAppropriatedSearchResults(searchedText: String, numberOfResults: Int) -> [String]{
+    func GetAppropriatedSearchResults(searchedText: String = "", numberOfResults: Int = 100) -> [String]{
         var result: [String] = []
-        var iterator = 0
-        for sity in sities {
+        for sity in sityNames {
             if sity.starts(with: searchedText){
                 result.append(sity)
-                iterator = +1
             }
-            if iterator >= 5{
+            if numberOfResults <= result.count{
                 return result
             }
         }
         return result
     }
+        
+        init(){
+            sityNames = []
+            for sity in sities{
+                sityNames.append(sity.name!)
+            }
+        }
+        
 }
