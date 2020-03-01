@@ -10,7 +10,7 @@ import Foundation
 
 class SearchViewModel{
     //private let provider = WeatherProvider(sityName: <#String#>)
-    private let sities = SityList().GetSitiesArray()
+    private let sities = CityList().GetCities()
     
     func GetAppropriatedSearchResults(searchedText: String, numberOfResults: Int) -> [String]{
         var result: [String] = []

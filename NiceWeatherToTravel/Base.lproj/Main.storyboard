@@ -21,14 +21,8 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bfD-Zc-QX7">
-                                <rect key="frame" x="363" y="84" width="36" height="30"/>
-                                <state key="normal" title="Clear">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
                             <searchBar contentMode="redraw" text="Search" translatesAutoresizingMaskIntoConstraints="NO" id="Gbf-nZ-6eh">
-                                <rect key="frame" x="0.0" y="75" width="356" height="56"/>
+                                <rect key="frame" x="0.0" y="75" width="414" height="56"/>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -46,34 +40,69 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" indicatorStyle="white" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="AK6-pP-erj">
+                                <rect key="frame" x="20" y="131" width="374" height="677"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="separatorColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="sectionIndexColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="sectionIndexBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="gray" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="searchCell" textLabel="vsc-nR-b5M" style="IBUITableViewCellStyleDefault" id="FKg-fO-dDi">
+                                        <rect key="frame" x="0.0" y="28" width="374" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="FKg-fO-dDi" id="MNo-0g-HtV">
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vsc-nR-b5M">
+                                                    <rect key="frame" x="20" y="0.0" width="334" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="0Xd-tM-ipe" id="RXL-bh-BVS"/>
+                                    <outlet property="delegate" destination="0Xd-tM-ipe" id="Ykm-pi-1df"/>
+                                </connections>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="EGC-1q-tF2" firstAttribute="top" secondItem="AK6-pP-erj" secondAttribute="bottom" constant="8" id="0eI-Gs-AUd"/>
                             <constraint firstItem="AgP-A9-KFj" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="Gbf-nZ-6eh" secondAttribute="trailing" constant="58" id="6vD-ja-Rve"/>
                             <constraint firstItem="uFt-pT-SlZ" firstAttribute="height" secondItem="5CZ-41-hUf" secondAttribute="height" multiplier="0.0178571" id="7rM-70-k7c"/>
-                            <constraint firstItem="bfD-Zc-QX7" firstAttribute="leading" secondItem="Gbf-nZ-6eh" secondAttribute="trailing" constant="7" id="8wJ-t7-WCr"/>
-                            <constraint firstItem="AgP-A9-KFj" firstAttribute="trailing" secondItem="bfD-Zc-QX7" secondAttribute="trailing" constant="15" id="H58-G6-IiU"/>
+                            <constraint firstItem="AgP-A9-KFj" firstAttribute="trailing" secondItem="AK6-pP-erj" secondAttribute="trailing" constant="20" id="D5I-39-ug9"/>
                             <constraint firstItem="est-UW-cLI" firstAttribute="leading" secondItem="AgP-A9-KFj" secondAttribute="leading" constant="20" id="HYx-vZ-oCE"/>
+                            <constraint firstItem="Gbf-nZ-6eh" firstAttribute="centerX" secondItem="AgP-A9-KFj" secondAttribute="centerX" id="JSi-gZ-qfX"/>
                             <constraint firstItem="AgP-A9-KFj" firstAttribute="trailing" secondItem="est-UW-cLI" secondAttribute="trailing" constant="299" id="MLz-IQ-6Rj"/>
                             <constraint firstItem="Gbf-nZ-6eh" firstAttribute="top" secondItem="AgP-A9-KFj" secondAttribute="top" constant="31" id="Mqz-Rn-5H2"/>
                             <constraint firstItem="est-UW-cLI" firstAttribute="top" secondItem="AgP-A9-KFj" secondAttribute="top" id="VTc-y1-Cpe"/>
                             <constraint firstItem="Gbf-nZ-6eh" firstAttribute="leading" secondItem="AgP-A9-KFj" secondAttribute="leading" id="Y4y-QG-83d"/>
                             <constraint firstItem="AgP-A9-KFj" firstAttribute="bottom" secondItem="uFt-pT-SlZ" secondAttribute="bottom" id="YwX-Tg-7Zl"/>
+                            <constraint firstItem="AK6-pP-erj" firstAttribute="centerX" secondItem="AgP-A9-KFj" secondAttribute="centerX" id="aAz-NG-SL8"/>
+                            <constraint firstItem="AK6-pP-erj" firstAttribute="top" secondItem="Gbf-nZ-6eh" secondAttribute="bottom" id="fvF-XN-88x"/>
                             <constraint firstItem="uFt-pT-SlZ" firstAttribute="top" secondItem="EGC-1q-tF2" secondAttribute="bottom" constant="9" id="g14-hP-iQA"/>
                             <constraint firstItem="EGC-1q-tF2" firstAttribute="centerX" secondItem="AgP-A9-KFj" secondAttribute="centerX" id="n0V-wQ-Nxc"/>
-                            <constraint firstItem="bfD-Zc-QX7" firstAttribute="top" secondItem="AgP-A9-KFj" secondAttribute="top" constant="40" id="o42-CQ-yDC"/>
                             <constraint firstItem="uFt-pT-SlZ" firstAttribute="centerX" secondItem="AgP-A9-KFj" secondAttribute="centerX" id="qhv-iY-o36"/>
                             <constraint firstItem="uFt-pT-SlZ" firstAttribute="width" secondItem="5CZ-41-hUf" secondAttribute="width" multiplier="0.176329" id="rnO-7e-4tr"/>
+                            <constraint firstItem="AK6-pP-erj" firstAttribute="leading" secondItem="AgP-A9-KFj" secondAttribute="leading" constant="20" id="v3S-LO-Gq3"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="AgP-A9-KFj"/>
                     </view>
                     <connections>
+                        <outlet property="SearchresultTableView" destination="AK6-pP-erj" id="fBp-aD-kDh"/>
                         <outlet property="searchBar" destination="Gbf-nZ-6eh" id="tYP-ki-LC6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X4p-Gi-Vsv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-955" y="143"/>
+            <point key="canvasLocation" x="-1465" y="154"/>
         </scene>
         <!--Weather View Controller-->
         <scene sceneID="8TW-h5-4f6">
