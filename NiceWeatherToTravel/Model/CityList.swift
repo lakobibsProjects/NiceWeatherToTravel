@@ -1,0 +1,118 @@
+//
+//  SityList.swift
+//  NiceWeatherToTravel
+//
+//  Created by user166683 on 2/27/20.
+//  Copyright © 2020 user166683. All rights reserved.
+//
+
+import Foundation
+import Alamofire
+import ObjectMapper
+//global bug: do not enter in responseJson escaping
+class CityList{
+    var cities: [ParsedCity]?
+    var cityNames: [String]?
+    //TODO: too long download
+    func GetCities() -> [ParsedCity]{
+        var result: [ParsedCity] = []
+        guard let path = Bundle.main.path(forResource: "city_list", ofType: "json") else { return []}
+        let ralativePath: URL = URL(fileURLWithPath: path)
+        
+        AF.request(
+            ralativePath,
+            method: .get,
+            headers: nil).responseJSON {
+                response in
+                switch response.result{
+                case .success(_):
+                    print("In request")
+                    if let cities = Mapper<CitiesToParse>().map(JSONObject:response.value){
+                        print("In if")
+                        for city in cities.cities!{
+                            result.append(city)
+                        }
+                    }
+                case .failure(let error):
+                    print("\(error)")
+                    }
+
+        }
+
+       return result
+    }
+        func GetCityNames() -> [String]{
+        var result: [String] = []
+        guard let path = Bundle.main.path(forResource: "city_list", ofType: "json") else { return []}
+        let ralativePath: URL = URL(fileURLWithPath: path)
+
+        AF.request(
+            ralativePath,
+            method: .get,
+            headers: nil).responseJSON {
+                response in
+                print ("request engaged")
+                if let cities = Mapper<CitiesToParse>().map(JSONObject:response.value){
+                    print("if engaged")
+                    for city in cities.cities!{
+                        result.append(city.name!)
+                    }
+                }
+
+        }
+
+       return result
+    }
+    
+    private func FillCities(){
+        guard let path = Bundle.main.path(forResource: "city_list", ofType: "json") else { return }
+        let relativePath: URL = URL(fileURLWithPath: path)
+        print("in fillcities")
+        
+        AF.request(
+            relativePath,
+            method: .get,
+            headers: nil).responseJSON {
+                response in
+                print("In request")
+                if let cities = Mapper<CitiesToParse>().map(JSONObject:response.value){
+                    print("In if")
+                    self.cities! = cities.cities!
+                }
+        }
+    }
+    
+    
+    init() {
+        cityNames = GetCityNames()
+        cities = GetCities()
+        print("cities is filled")
+    }
+}
+
+class ParsedCity: Mappable{
+    var id: Int?
+    var name: String?
+    
+    required init?(map: Map) {
+        
+    }
+    
+    func mapping(map: Map) {
+        id <- map["id"]
+        name <- map["name"]
+    }
+}
+
+class CitiesToParse: Mappable {
+    var cities: [ParsedCity]?
+    
+    required init?(map: Map) {
+        
+    }
+    
+    func mapping(map: Map) {
+        cities <- map["cities"]
+
+    }
+}
