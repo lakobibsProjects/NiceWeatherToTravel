@@ -7,9 +7,12 @@
 //
 
 import UIKit
+import CoreData
 
 class SightsViewController: UIViewController {
-
+    
+    var context: NSManagedObjectContext!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
