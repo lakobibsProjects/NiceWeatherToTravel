@@ -34,6 +34,7 @@ class SearchViewController: UIViewController {
             
         }*/
         cities = viewModel?.sityNames ?? []
+        
         searchBar.delegate = self
         searchBar.searchTextField.textColor = UIColor.gray
     }
