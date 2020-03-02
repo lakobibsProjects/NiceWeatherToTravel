@@ -19,7 +19,6 @@ class SearchViewController: UIViewController {
     var searchCities = [String]()
     var searching = false
     
-    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
