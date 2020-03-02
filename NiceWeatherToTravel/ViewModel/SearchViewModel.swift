@@ -9,27 +9,23 @@
 import Foundation
 
 class SearchViewModel{
-    private let sities = CityList().GetCities()
-    private var sityNames: [String]
-    
-    func GetAppropriatedSearchResults(searchedText: String = "", numberOfResults: Int = 100) -> [String]{
+    var searchedString: Box<String?> = Box("")
+    let cityList: CityList
+    let sities: [ParsedCity]
+    var sityNames: [String] = []
+    private func fillSityNames(){
         var result: [String] = []
-        for sity in sityNames {
-            if sity.starts(with: searchedText){
-                result.append(sity)
-            }
-            if numberOfResults <= result.count{
-                return result
-            }
+        for sity in sities {
+            result.append(sity.name!)
         }
-        return result
     }
         
-        init(){
-            sityNames = []
-            for sity in sities{
-                sityNames.append(sity.name!)
-            }
-        }
+    init(){
+        self.cityList = CityList()
+        self.sities = cityList.GetCities()
+        fillSityNames()
+        print("citynames was filled")
+    }
+       
         
 }

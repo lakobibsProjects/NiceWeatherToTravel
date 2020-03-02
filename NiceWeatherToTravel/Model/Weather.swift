@@ -147,45 +147,6 @@ class OneTimespanForecast: Mappable{
     }
 }
 
-
-/*
- "dt": 1583258400,
-   "main": {
-     "temp": 278.53,
-     "feels_like": 275.93,
-     "temp_min": 278.53,
-     "temp_max": 278.53,
-     "pressure": 996,
-     "sea_level": 996,
-     "grnd_level": 992,
-     "humidity": 79,
-     "temp_kf": 0
-   },
-   "weather": [
-     {
-       "id": 500,
-       "main": "Rain",
-       "description": "light rain",
-       "icon": "10n"
-     }
-   ],
-   "clouds": {
-     "all": 100
-   },
-   "wind": {
-     "speed": 1.33,
-     "deg": 116
-   },
-   "rain": {
-     "3h": 0.13
-   },
-   "sys": {
-     "pod": "n"
-   },
-   "dt_txt": "2020-03-03 18:00:00"
- }
- 
- */
 class Coordinates: Mappable{
     var longatitude: Double?
     var latitude: Double?
