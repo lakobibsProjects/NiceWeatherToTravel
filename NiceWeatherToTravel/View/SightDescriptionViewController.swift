@@ -7,12 +7,28 @@
 //
 
 import UIKit
+import MapKit
 
 class SightDescriptionViewController: UIViewController {
 
+    @IBOutlet weak var sightName: UILabel!
+    @IBOutlet weak var sightImage: UIImageView!
+    @IBOutlet weak var sightShortDescription: UITextView!
+    @IBOutlet weak var sightLondDescription: UITextView!
+    @IBOutlet weak var sightLocation: MKMapView!
+    
+    var sight:Sight?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        guard let sight = sight else{return}
+        sightName.text = sight.name
+        if let imageData = sight.image{
+            sightImage.image = UIImage(data: imageData)
+        }
+        sightShortDescription.text = sight.short_description
+        sightLondDescription.text = sight.long_description
         // Do any additional setup after loading the view.
     }
     

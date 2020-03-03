@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Tower of London</string>
+		<key>city</key>
+		<string>London</string>
+		<key>short_description</key>
+		<string>Discover London’s castle – a secure fortress, royal palace and infamous prison where you can explore 1000 years of history. Prepare to be dazzled by the breathtaking, world famous Crown Jewels. Take a Yeoman Warder tour and hear captivating stories of pain and passion, treachery and torture. Meet the famous ravens and discover why they are known as the guardians of the Tower and marvel at the imposing White Tower, a magnificent example of Normal architecture at the heart of the Tower of London.</string>
+		<key>long_description</key>
+		<string>The Tower of London, officially Her Majesty&apos;s Royal Palace and Fortress of the Tower of London, is a historic castle located on the north bank of the River Thames in central London. It lies within the London Borough of Tower Hamlets, which is separated from the eastern edge of the square mile of the City of London by the open space known as Tower Hill. It was founded towards the end of 1066 as part of the Norman Conquest of England. The White Tower, which gives the entire castle its name, was built by William the Conqueror in 1078 and was a resented symbol of oppression, inflicted upon London by the new ruling elite. The castle was used as a prison from 1100 (Ranulf Flambard) until 1952 (Kray twins), although that was not its primary purpose.  After the Second World War, damage caused during the Blitz was repaired, and the castle reopened to the public. Today, the Tower of London is one of the country&apos;s most popular tourist attractions. Under the ceremonial charge of the Constable of the Tower, and operated by the Resident Governor of the Tower of London and Keeper of the Jewel House, the property is cared for by the charity Historic Royal Palaces and is protected as a World Heritage Site.</string>
+		<key>map</key>
+		<string>https://www.google.com/maps/place/%D0%9B%D0%BE%D0%BD%D0%B4%D0%BE%D0%BD%D1%81%D0%BA%D0%B8%D0%B9+%D0%A2%D0%B0%D1%83%D1%8D%D1%80/@51.5081124,-0.0759493,15z/data=!4m5!3m4!1s0x0:0xa8bf49dde1d56467!8m2!3d51.5081124!4d-0.0759493</string>
+		<key>image</key>
+		<string>Tower_Of_London.jpeg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Churchill War Rooms</string>
+		<key>city</key>
+		<string>London</string>
+		<key>short_description</key>
+		<string>Discover the secrets of the Second World War in the underground nerve centre where Churchill and his war cabinet lived and worked.</string>
+		<key>long_description</key>
+		<string>The Churchill War Rooms is a museum in London and one of the five branches of the Imperial War Museum. The museum comprises the Cabinet War Rooms, a historic underground complex that housed a British government command centre throughout the Second World War, and the Churchill Museum, a biographical museum exploring the life of British statesman Winston Churchill.Construction of the Cabinet War Rooms, located beneath the Treasury building in the Whitehall area of Westminster, began in 1938. They became fully operational on 27 August 1939, a week before Britain declared war on Germany. The War Rooms remained in operation throughout the Second World War, before being abandoned in August 1945 after the surrender of Japan.After the war, the historic value of the Cabinet War Rooms was recognised. Their preservation became the responsibility of the Ministry of Works and later the Department for the Environment, during which time very limited numbers of the public were able to visit by appointment. In the early 1980s the Imperial War Museum was asked to take over the administration of the site, and the Cabinet War Rooms were opened to the public in April 1984. The museum was reopened in 2005 following a major redevelopment as the Churchill Museum and Cabinet War Rooms, but in 2010 this title was shortened to the Churchill War Rooms.</string>
+		<key>map</key>
+		<string>https://www.google.com/maps?q=Churchill+War+Rooms&amp;source=lmns&amp;hl=ru&amp;ved=2ahUKEwjd3r-8ifznAhUKC5oKHcc6ASMQ_AUoAXoECAEQAQ</string>
+		<key>image</key>
+		<string>Churchill_War_Rooms.jpeg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>The British Museum</string>
+		<key>city</key>
+		<string>London</string>
+		<key>short_description</key>
+		<string>A museum of the world, for the world. Discover over two million years of human history and culture. Some of the world-famous objects include the Rosetta Stone, the Parthenon sculptures and Egyptian mummies.</string>
+		<key>long_description</key>
+		<string>The British Museum, in the Bloomsbury area of London, United Kingdom, is a public institution dedicated to human history, art and culture. Its permanent collection of some eight million works is among the largest and most comprehensive in existence, having been widely sourced during the era of the British Empire. It documents the story of human culture from its beginnings to the present. It was the first public national museum in the world. The British Museum was established in 1753, largely based on the collections of the Irish physician and scientist Sir Hans Sloane. It first opened to the public in 1759, in Montagu House, on the site of the current building. Its expansion over the following 250 years was largely a result of expanding British colonisation and has resulted in the creation of several branch institutions, the first being the Natural History Museum in 1881. In 1973, the British Library Act 1972 detached the library department from the British Museum, but it continued to host the now separated British Library in the same Reading Room and building as the museum until 1997. The museum is a non-departmental public body sponsored by the Department for Digital, Culture, Media and Sport, and as with all national museums in the UK it charges no admission fee, except for loan exhibitions. Its ownership of some of its most famous objects originating in other countries is disputed and remains the subject of international controversy, most notably in the case of the Parthenon Marbles.</string>
+		<key>map</key>
+		<string>https://www.google.com/maps/place/%D0%91%D1%80%D0%B8%D1%82%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%D0%B9+%D0%BC%D1%83%D0%B7%D0%B5%D0%B9/@51.5194133,-0.1291453,17z/data=!3m1!4b1!4m5!3m4!1s0x48761b323093d307:0x2fb199016d5642a7!8m2!3d51.5194133!4d-0.1269566?hl=ru</string>
+		<key>image</key>
+		<string>The_British_Museum.jpeg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Tower Bridge</string>
+		<key>city</key>
+		<string>London</string>
+		<key>short_description</key>
+		<string>An iconic London landmark and one of Britain&apos;s best loved historic sites, Tower Bridge is open to the public 363 days a year. Within the Bridge&apos;s iconic structure and magnificent Victorian Engine rooms, the Tower Bridge Exhibition is the best way of exploring the most famous bridge in the world! Come learn about this incredible feat of Victorian engineering, discover how the Bridge is raised and enjoy stunning panoramic views across London from our high-level walkways, 42 metres above the River Thames.</string>
+		<key>long_description</key>
+		<string>Tower Bridge is a combined bascule and suspension bridge in London, built between 1886 and 1894. The bridge crosses the River Thames close to the Tower of London and has become an iconic symbol of London. As a result, it is sometimes confused with London Bridge, about half a mile (0.8 km) upstream. Tower Bridge is one of five London bridges owned and maintained by the Bridge House Estates, a charitable trust overseen by the City of London Corporation. It is the only one of the trust&apos;s bridges not to connect the City of London directly to the Southwark bank, as its northern landfall is in Tower Hamlets. The bridge consists of two bridge towers tied together at the upper level by two horizontal walkways, designed to withstand the horizontal tension forces imposed by the suspended sections of the bridge on the landward sides of the towers. The vertical components of the forces in the suspended sections and the vertical reactions of the two walkways are carried by the two robust towers. The bascule pivots and operating machinery are housed in the base of each tower. The bridge deck is freely accessible to both vehicles and pedestrians, whereas the bridge&apos;s twin towers, high-level walkways and Victorian engine rooms form part of the Tower Bridge Exhibition, for which an admission charge is made. The nearest London Underground tube stations are Tower Hill on the Circle and District lines, London Bridge on the Jubilee and Northern lines and Bermondsey on the Jubilee line, and the nearest Docklands Light Railway station is Tower Gateway. The nearest National Rail stations are at Fenchurch Street and London Bridge.</string>
+		<key>map</key>
+		<string>https://www.google.com/maps/search/Tower+Bridge/@51.5049744,-0.0900158,15z/data=!3m1!4b1</string>
+		<key>image</key>
+		<string>Tower_Bridge.jpeg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>National Gallery</string>
+		<key>city</key>
+		<string>London</string>
+		<key>short_description</key>
+		<string>The National Gallery houses the national collection of paintings in the Western European tradition from the 13th to the 19th centuries. It is on show 361 days a year, free of charge.
+The National Gallery houses the national collection of paintings in the Western European tradition from the 13th to the 19th centuries. It is on show 361 days a year, free of charge.
+</string>
+		<key>long_description</key>
+		<string>The National Gallery is an art museum in Trafalgar Square in the City of Westminster, in Central London. Founded in 1824, it houses a collection of over 2,300 paintings dating from the mid-13th century to 1900.The Gallery is an exempt charity, and a non-departmental public body of the Department for Digital, Culture, Media and Sport. Its collection belongs to the government on behalf of the British public, and entry to the main collection is free of charge. It is among the most visited art museums in the world, after the Louvre, the British Museum, and the Metropolitan Museum of Art. Unlike comparable museums in continental Europe, the National Gallery was not formed by nationalising an existing royal or princely art collection. It came into being when the British government bought 38 paintings from the heirs of John Julius Angerstein in 1824. After that initial purchase the Gallery was shaped mainly by its early directors, notably Sir Charles Lock Eastlake, and by private donations, which today account for two-thirds of the collection.The collection is small compared with many European national galleries, but encyclopaedic in scope; most major developments in Western painting &quot;from Giotto to Cézanne&quot; are represented with important works. It used to be claimed that this was one of the few national galleries that had all its works on permanent exhibition, but this is no longer the case. The present building, the third to house the National Gallery, was designed by William Wilkins from 1832 to 1838. Only the façade onto Trafalgar Square remains essentially unchanged from this time, as the building has been expanded piecemeal throughout its history. Wilkins&apos;s building was often criticised for the perceived weaknesses of its design and for its lack of space; the latter problem led to the establishment of the Tate Gallery for British art in 1897.The Sainsbury Wing, a 1991 extension to the west by Robert Venturi and Denise Scott Brown, is a notable example of Postmodernist architecture in Britain. The current Director of the National Gallery is Gabriele Finaldi.</string>
+		<key>map</key>
+		<string>https://www.google.com/maps/place/%D0%9D%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F+%D0%B3%D0%B0%D0%BB%D0%B5%D1%80%D0%B5%D1%8F/@51.508929,-0.1304877,17z/data=!3m1!4b1!4m5!3m4!1s0x487604ce176ac979:0x42af85654e23a0b4!8m2!3d51.508929!4d-0.128299
+</string>
+		<key>image</key>
+		<string>National_Gallery.jpeg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Victoria and Albert Museum</string>
+		<key>city</key>
+		<string>London</string>
+		<key>short_description</key>
+		<string>The world&apos;s greatest museum of art and design.The V&amp;A&apos;s collections are unrivalled in their diversity. Explore historical and contemporary art and design, including works of art from many of the world&apos;s richest cultures. </string>
+		<key>long_description</key>
+		<string>The Victoria and Albert Museum (often abbreviated as the V&amp;A) in London is the world&apos;s largest museum of applied and decorative arts and design, as well as sculpture, housing a permanent collection of over 2.27 million objects. It was founded in 1852 and named after Queen Victoria and Prince Albert. The V&amp;A is located in the Brompton district of the Royal Borough of Kensington and Chelsea, in an area that has become known as &quot;Albertopolis&quot; because of its association with Prince Albert, the Albert Memorial and the major cultural institutions with which he was associated. These include the Natural History Museum, the Science Museum, the Royal Albert Hall and Imperial College London. The museum is a non-departmental public body sponsored by the Department for Digital, Culture, Media and Sport. As with other national British museums, entrance is free. The V&amp;A covers 12.5 acres (5.1 ha) and 145 galleries. Its collection spans 5,000 years of art, from ancient times to the present day, from the cultures of Europe, North America, Asia and North Africa. However, the art of antiquity in most areas is not collected. The holdings of ceramics, glass, textiles, costumes, silver, ironwork, jewellery, furniture, medieval objects, sculpture, prints and printmaking, drawings and photographs are among the largest and most comprehensive in the world. The museum owns the world&apos;s largest collection of post-classical sculpture, with the holdings of Italian Renaissance items being the largest outside Italy. The departments of Asia include art from South Asia, China, Japan, Korea and the Islamic world. The East Asian collections are among the best in Europe, with particular strengths in ceramics and metalwork, while the Islamic collection is amongst the largest in the Western world. Overall, it is one of the largest museums in the world. Since 2001, the museum has embarked on a major £150m renovation programme. New 17th- and 18th-century European galleries were opened on 9 December 2015.</string>
+		<key>map</key>
+		<string>https://www.google.com/maps/place/%D0%9C%D1%83%D0%B7%D0%B5%D0%B9+%D0%92%D0%B8%D0%BA%D1%82%D0%BE%D1%80%D0%B8%D0%B8+%D0%B8+%D0%90%D0%BB%D1%8C%D0%B1%D0%B5%D1%80%D1%82%D0%B0/@51.4966392,-0.1743687,17z/data=!3m1!4b1!4m5!3m4!1s0x48760543b17e57c3:0x9eb7094dfdcd651f!8m2!3d51.4966392!4d-0.17218</string>
+		<key>image</key>
+		<string>Victoria_and_Albert_Museum.jpeg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Natural History Museum</string>
+		<key>city</key>
+		<string>London</string>
+		<key>short_description</key>
+		<string>A center of scientific excellence in the discovery of taxonomy and biodiversity, this world-famous museum promotes the discovery and enjoyment of the natural world through such exciting exhibits as the Life and Earth Galleries, wildlife garden and geological collections.</string>
+		<key>long_description</key>
+		<string> The Natural History Museum in London is a natural history museum that exhibits a vast range of specimens from various segments of natural history. It is one of three major museums on Exhibition Road in South Kensington, the others being the Science Museum and the Victoria and Albert Museum. The Natural History Museum&apos;s main frontage, however, is on Cromwell Road. The museum is home to life and earth science specimens comprising some 80 million items within five main collections: botany, entomology, mineralogy, paleontology and zoology. The museum is a centre of research specialising in taxonomy, identification and conservation. Given the age of the institution, many of the collections have great historical as well as scientific value, such as specimens collected by Charles Darwin. The museum is particularly famous for its exhibition of dinosaur skeletons and ornate architecture—sometimes dubbed a cathedral of nature—both exemplified by the large Diplodocus cast that dominated the vaulted central hall before it was replaced in 2017 with the skeleton of a blue whale hanging from the ceiling. The Natural History Museum Library contains extensive books, journals, manuscripts, and artwork collections linked to the work and research of the scientific departments; access to the library is by appointment only. The museum is recognised as the pre-eminent centre of natural history and research of related fields in the world. Although commonly referred to as the Natural History Museum, it was officially known as British Museum (Natural History) until 1992, despite legal separation from the British Museum itself in 1963. Originating from collections within the British Museum, the landmark Alfred Waterhouse building was built and opened by 1881 and later incorporated the Geological Museum. The Darwin Centre is a more recent addition, partly designed as a modern facility for storing the valuable collections.</string>
+		<key>map</key>
+		<string>https://www.google.com/maps/place/%D0%9C%D1%83%D0%B7%D0%B5%D0%B9+%D0%B5%D1%81%D1%82%D0%B5%D1%81%D1%82%D0%B2%D0%BE%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F/@51.496715,-0.1785559,17z/data=!3m2!4b1!5s0x4876055d2a7da3ef:0xf1f051391800f80!4m5!3m4!1s0x48760542e6182f3f:0x7bb7e385c39764c4!8m2!3d51.496715!4d-0.1763672</string>
+		<key>image</key>
+		<string>Natural_History_Museum.jpeg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Houses of Parliament</string>
+		<key>city</key>
+		<string>London</string>
+		<key>short_description</key>
+		<string>Most of this iconic building was built in the mid-19th century following a devastating fire in 1834. Westminster Hall survived the fire and dates from 1097. Visitors can book tours through the House of Commons and the House of Lords, and are welcome to watch debates and committees when the Houses are sitting.</string>
+		<key>long_description</key>
+		<string>In the middle of the eleventh century, King Edward the Confessor had moved his court to the Palace of Westminster, situated on a central site near the river Thames. In 1265 a parliament was created with two houses: the Lords and the Commons. The House of Lords met at the Palace of Westminster while the House of Commons did not have a permanent location. After King Henry VIII moved his court to Whitehall Palace in 1530, the House of Lords continued to meet in Westminster. In 1547 the House of Commons also moved here, confirming Westminster as the central seat of government, a position it still holds today. In 1834 a fire destroyed the Palace of Westminster, leaving only the Jewel Tower, the crypt and cloister of St. Stephens and Westminster Hall intact. After the fire, a competition was organized to create a new building for the two houses of parliament. A design by Sir Charles Barry and his assistant Augustus Welby Pugin was chosen from ninety-seven entries. They created a large but balanced complex in neo-Gothic style and incorporated the buildings that survived the fire. The whole complex was finished in 1870, more than thirty years after construction started. It includes the Clock Tower, Victoria Tower, House of Commons, House of Lords, Westminster Hall and the Lobbies. The most famous part of Charles Barry&apos;s design is the elegant clock tower. Originally called St. Stephen&apos;s Tower, it was soon named after the tower&apos;s largest bell, the Big Ben. A light at the top of the tower is illuminated when Parliament is sitting at night.  The Commons Chamber, where the House of Commons meets, was destroyed during the Second World War but rebuilt in 1950 by Sir Giles Gilbert Scott in the same neo-Gothic style. The Commons Chamber&apos;s interior (with green colored benches) is rather austere compared to the lavishly decorated Lords Chamber (with red colored benches).  Over the centuries the balance of power has moved from the elitist House of Lords to the more agitated House of Commons, where the governing party and the opposition are seated opposite each other with exactly two sword lengths and one foot separating the two parties. One of several lobbies in the Houses of Parliament is the Central Lobby where people can meet the Members of Parliament and persuade them to Victoria Tower, Houses of Parliament, Londondefend their interests. Hence the verb &apos;to lobby&apos;. The tower opposite the Big Ben is the Victoria Tower, built in 1860. The tower contains the records of both the House of Lords and the House of Commons since 1497. During the parliamentary year the Union Flag is hoisted on top of the 98 meter-tall tower.  The oldest hall of the Houses of Parliament is Westminster Hall, dating back to 1097. The large hammer beam roof was built in the fourteenth century and replaced the original roof which was supported by two rows of pillars. The hall is one of Europe&apos;s largest unsupported medieval halls.</string>
+		<key>map</key>
+		<string>https://www.google.com/maps/place/%D0%92%D0%B5%D1%81%D1%82%D0%BC%D0%B8%D0%BD%D1%81%D1%82%D0%B5%D1%80%D1%81%D0%BA%D0%B8%D0%B9+%D0%B4%D0%B2%D0%BE%D1%80%D0%B5%D1%86/@51.4994794,-0.1269979,17z/data=!3m1!4b1!4m5!3m4!1s0x487604c40c8d9b99:0x7797a8ef74e1f7c!8m2!3d51.4994794!4d-0.1248092</string>
+		<key>image</key>
+		<string>Houses_of_Parliament.jpeg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Buckingham Palace</string>
+		<key>city</key>
+		<string>London</string>
+		<key>short_description</key>
+		<string>Buckingham Palace is recognised around the world as the focus of national and royal celebrations as well as the backdrop to the regular Changing the Guard ceremony. Explore the magnificent State Rooms which are open to visitors for 10 weeks each summer and on selected dates during winter and spring. During a visit to Buckingham Palace, visitors can see the 19 magnificent State Rooms, which provide the setting for ceremonial occasions and official entertaining. All rooms are furnished with many of the greatest treasures from the Royal Collection.</string>
+		<key>long_description</key>
+		<string>Buckingham Palace is the London residence and administrative headquarters of the monarchy of the United Kingdom.Located in the City of Westminster, the palace is often at the centre of state occasions and royal hospitality. It has been a focal point for the British people at times of national rejoicing and mourning. Originally known as Buckingham House, the building at the core of today&apos;s palace was a large townhouse built for the Duke of Buckingham in 1703 on a site that had been in private ownership for at least 150 years. It was acquired by King George III in 1761 as a private residence for Queen Charlotte and became known as The Queen&apos;s House. During the 19th century it was enlarged, principally by architects John Nash and Edward Blore, who constructed three wings around a central courtyard. Buckingham Palace became the London residence of the British monarch on the accession of Queen Victoria in 1837. The last major structural additions were made in the late 19th and early 20th centuries, including the East Front, which contains the well-known balcony on which the royal family traditionally congregates to greet crowds. A German bomb destroyed the palace chapel during World War II; the Queen&apos;s Gallery was built on the site and opened to the public in 1962 to exhibit works of art from the Royal Collection. The original early 19th-century interior designs, many of which survive, include widespread use of brightly coloured scagliola and blue and pink lapis, on the advice of Sir Charles Long. King Edward VII oversaw a partial redecoration in a Belle Époque cream and gold colour scheme. Many smaller reception rooms are furnished in the Chinese regency style with furniture and fittings brought from the Royal Pavilion at Brighton and from Carlton House. The palace has 775 rooms, and the garden is the largest private garden in London. The state rooms, used for official and state entertaining, are open to the public each year for most of August and September and on some days in winter and spring.</string>
+		<key>map</key>
+		<string>https://www.google.com/maps/search/Buckingham+Palace/@51.5000478,-0.1449482,17z/data=!3m1!4b1</string>
+		<key>image</key>
+		<string>Buckingham_Palace.jpeg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Imperial War Museums</string>
+		<key>city</key>
+		<string>London</string>
+		<key>short_description</key>
+		<string>Founded during the First World War, IWM London gives voice to the extraordinary experiences of ordinary people forced to live in a world torn apart by conflict. From the wonder of its world-famous atrium to the countless discoveries on each of its six floors, it is a place filled with the power to move, surprise and inspire.</string>
+		<key>long_description</key>
+		<string>Imperial War Museums (IWM) is a British national museum organisation with branches at five locations in England, three of which are in London. Founded as the Imperial War Museum in 1917, the museum was intended to record the civil and military war effort and sacrifice of Britain and its Empire during the First World War. The museum&apos;s remit has since expanded to include all conflicts in which British or Commonwealth forces have been involved since 1914. As of 2012, the museum aims &quot;to provide for, and to encourage, the study and understanding of the history of modern war and &apos;wartime experience&apos;.&quot; Originally housed in the Crystal Palace at Sydenham Hill, the museum opened to the public in 1920. In 1924, the museum moved to space in the Imperial Institute in South Kensington, and finally in 1936, the museum acquired a permanent home that was previously the Bethlem Royal Hospital in Southwark. The outbreak of the Second World War saw the museum expand both its collections and its terms of reference, but in the post-war period, the museum entered a period of decline. The 1960s saw the museum redevelop its Southwark building, now referred to as Imperial War Museum London, which serves as the organisation&apos;s corporate headquarters. During the 1970s, the museum began to expand onto other sites. The first, in 1976, was a historic airfield in Cambridgeshire now referred to as IWM Duxford. In 1978, the Royal Navy cruiser HMS Belfast became a branch of the museum, having previously been preserved for the nation by a private trust. In 1984, the Cabinet War Rooms, an underground wartime command centre, was opened to the public. From the 1980s onwards, the museum&apos;s Bethlem building underwent a series of multimillion-pound redevelopments, completed in 2000. Finally, 2002 saw the opening of IWM North in Trafford, Greater Manchester, the fifth branch of the museum and the first in the north of England. In 2011, the museum rebranded itself as IWM, standing for &quot;Imperial War Museums&quot;. The museum&apos;s collections include archives of personal and official documents, photographs, film and video material, and oral history recordings, an extensive library, a large art collection, and examples of military vehicles and aircraft, equipment, and other artefacts.</string>
+		<key>map</key>
+		<string>https://www.google.com/maps/place/Imperial+War+Museum/@51.4953408,-0.1096933,16.33z/data=!4m8!1m2!2m1!1sImperial+War+Museums!3m4!1s0x0:0xfed51d88d007b387!8m2!3d51.4958396!4d-0.1086617</string>
+		<key>image</key>
+		<string>Imperial_War_Museums.jpeg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Curonian Spit</string>
+		<key>city</key>
+		<string>Kaliningrad</string>
+		<key>short_description</key>
+		<string>The Curonian Spit  is a 98 km long, thin, curved sand-dune spit that separates the Curonian Lagoon from the Baltic Sea coast. Its southern portion lies within Kaliningrad Oblast, Russia and its northern within southwestern Lithuania. It is a UNESCO World Heritage Site shared by the two countries.</string>
+		<key>long_description</key>
+		<string>The foundations of the spit were created about 15,000 BCE as the receding glaciers left the Baltic Sea behind, and the sand dunes of the Curonian built on the glacial moraine. The actions of sea and wind build large dunes, which average 35 meters on the spit. The area is one of high biodiversity due to the many different ecological communities in close proximity to each other: beach, dune ridge, wetlands of various types, meadows and forests. The Curonian Spit is the second longest spit in the world, after the 110-km long Arabat Spit in the Sea of Azov. The park follows the spit from the Sambian Peninsula in the south to the border with Lithuania about 40 km north; its width varies from 0.4 to 4 km. The water in the lagoon averages 3.7 meters in depth, and the water level of the lagoon is about 12 cm above that of the Baltic.</string>
+		<key>map</key>
+		<string>https://www.google.com/maps/place/%D0%9A%D1%83%D1%80%D1%88%D1%81%D0%BA%D0%B0%D1%8F+%D0%9A%D0%BE%D1%81%D0%B0/@55.3022307,20.5634698,10z/data=!4m5!3m4!1s0x46e497eb3fefd383:0x392ee279a4016173!8m2!3d55.2783333!4d20.9683333</string>
+		<key>image</key>
+		<string>Curonian_Spit.jpeg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Museum of the World Ocean</string>
+		<key>city</key>
+		<string>Kaliningrad</string>
+		<key>short_description</key>
+		<string>Museum of the World Ocean gives a right for reproduction of the museum exhibits, collections, buildings, objects located on its territory for the purposes of publication, research work, commercial and advertising use, information materials, etc. as well as for research of museum objects and collections. Coffee-breaks and stand-up meals can be organized during events in Museum of the World Ocean.</string>
+		<key>long_description</key>
+		<string>Museum of the World Ocean is one of the most innovative modern cultural institutions in Russia. It is more than just a museum – it’s also a cultural centre offering opportunities to see, learn about, and listen to everything marine. We try to connect different shores, cultures and people with our permanent expositions and temporary exhibitions, innovative ideas and ecological initiatives.Our vessels: Diesel/electric Submarine &quot;B-413&quot;, Scientific-research Vessel &quot;Vityaz&quot;, Research vessel of the Russian Aerospace Agency &quot;Kosmonavt Victor Patsaev&quot;, Medium Catching Trawler &quot;SRT-129&quot;, Icebreaker &quot;Krasin&quot;. Main building and open territory: Aquariums with dwellers of various areas of the World ocean. Congress-hall for exhibitions, conferences and presentations. Exposition &quot;Shores of the World&quot;. The lighthouse “Sperm-whale” pavilion. Open territory with oceanological and diving equipment, archeological findings. Landscape park &quot;The Baltic Sea&quot;.</string>
+		<key>map</key>
+		<string>https://www.google.com/maps?q=Museum+of+the+World+Ocean&amp;um=1&amp;ie=UTF-8&amp;sa=X&amp;ved=2ahUKEwj1useugfznAhWmw6YKHX2ZBicQ_AUoAXoECBMQAw</string>
+		<key>image</key>
+		<string>Museum_of_the_World_Ocean.jpeg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Konigsberg Cathedral</string>
+		<key>city</key>
+		<string>Kaliningrad</string>
+		<key>short_description</key>
+		<string>Königsberg Cathedral is a Brick Gothic-style monument in Kaliningrad, Russia, located on Kneiphof island in the Pregel (Pregolya) river. It is the most significant preserved building of the former City of Königsberg, which was largely destroyed in World War II.Dedicated to Virgin Mary and St Adalbert, it was built as the see of the Prince-Bishops of Samland in the 14th century. Upon the establishment of the secular Duchy of Prussia, it became the Lutheran Albertina University church in 1544. The spire and roof of the cathedral burnt down after two RAF bombing raids in late August 1944; reconstruction started after the Perestroika movement in 1992.</string>
+		<key>long_description</key>
+		<string>Today, the Cathedral is a multi-purpose cultural hub which includes an academic concert hall hosting a unique organ complex, the largest in Russia, and the Immanuel Kant Museum. A Park of Statues surrounds the cathedral on Kant Island. Situated in the heart of Konigsberg-Kaliningrad, on the island of Kneiphof that was obliterated by the British airforce in 1944, the Cathedral’s is a dramatic story of destruction and restoration which, alongside the tomb of Immanuel Kant near its northern wall, have made it a symbol of the city, its architectural centerpiece, and the main point of attraction for all visitors to Kaliningrad. The Immanuel Kant Museum’s collection includes a variety of exhibits related to the history of Konigsberg-Kaliningrad, as well as the life and scientific work of the great German philosopher. The Cathedral’s unique organ complex consists of a grand organ and a smaller choir organ. The two mechanical instruments with electronic enhancements were manufactured by the German organ company Alexander Schuke. The Cathedral has two organists on its staff. Organ mini-concerts, 40 minutes long, are held daily and enjoy great popularity among visitors to the region. Evening concerts are held once or twice a week and feature invited organists. The Cathedral’s unique organ complex has attracted the attention of leading Russian and European musicians. The Cathedral has hosted numerous festivals. World-renowned musicians, orchestras and choirs have appeared at the stage of its 700-seat academic concert hall, the largest in the region. It has become a tradition of the Cathedral to host the Mikael Tariverdiev International Organ Competition.</string>
+		<key>map</key>
+		<string>https://www.google.com/maps?q=Konigsberg+Cathedral&amp;um=1&amp;ie=UTF-8&amp;sa=X&amp;ved=2ahUKEwiynPKkgvznAhUwyKYKHW0RDBEQ_AUoAXoECBkQAw</string>
+		<key>image</key>
+		<string>Konigsberg_Cathedral.jpeg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Kaliningrad Amber Museum</string>
+		<key>city</key>
+		<string>Kaliningrad</string>
+		<key>short_description</key>
+		<string>The Kaliningrad Regional Amber Museum is a museum located in the Russian city of Kaliningrad devoted to housing and displaying amber artworks. It is located in the city center, on the shore of Lake Verkhneye. Construction on the museum began in 1972. The museum opened in 1979 and houses about 14,000 individual pieces. The museum occupies part of a reconstructed fortification, originally built by Karl Friedrich Emil zu Dohna-Schlobitten in the Napoleonic wars. Among the exhibits are the world&apos;s second-largest piece of amberand a 4-foot-tall (1.2 m) vase named The Abundance, as well as a collection of over 3,000 amber inclusions. One of the most famous organic inclusions is a small lizard.</string>
+		<key>long_description</key>
+		<string>The exposition is arranged on three floors in 28 show-rooms, with a total area of 1,000 square meters. It contains five sections: Origin of amber, its properties, Historical and archaeological knowledge of amber, Amber in art of the 17th to 18th centuries, Kaliningrad Amber Factory, Amber in contemporary art. A part of the exhibition is dedicated the &quot;Staatliche Bernstein-Manufaktur Koenigsberg&quot; (amber factory Koenigsberg), a German company for extraction and treatment amber in Koenigsberg (now Kaliningrad) and Palmnicken (today Jantarny) until 1945. The museum has unique pieces of the Baltic gem (a 4-kilogram 280g sampler, the largest in the Amber Museum collection), as well as more than two thousand pieces of art from it. The museum is the only owner of fragments of the decor of the Amber Room, restored by artists G. Khozatsky, V. Ertsev, V. Vorobyov, A. Zhuravlev, A. Vanin, M. Ertseva and L. Grigorieva. The artists managed to revive the technology of processing amber, which was used by masters of the 17th-18th centuries In the museum there are dioramas of the ancient &quot;amber forest&quot; and a career in the extraction of the amber &quot;blue earth&quot;, many pieces (more than a thousand) of amber with inclusions of Mesozoic plants and animals, including lizards. The whole spectrum of amber colors is shown from white to black. Amber products of the 4th-5th centuries AD, also found by archaeologists on the territory of the Kaliningrad region, were exhibited, as well as works by German masters handed over from the Armory Chamber.</string>
+		<key>map</key>
+		<string>https://www.google.com/maps?q=Kaliningrad+Amber+Museum&amp;source=lmns&amp;hl=ru&amp;ved=2ahUKEwjj2daog_znAhVEOZoKHToHC9cQ_AUoAnoECAEQAg</string>
+		<key>image</key>
+		<string>Kaliningrad_Amber_Museum.jpeg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Fort XI Donhoff</string>
+		<key>city</key>
+		<string>Kaliningrad</string>
+		<key>short_description</key>
+		<string>Fort XI Donhoff is the fortified structure built in 1877-1882. It is one of 12 forts composing the outer fortification ring of former Fortress Koenigsberg previously called &quot;Night feather-bed of Konigsberg&quot;. In the end of the Second World War on April 7, 1945 the garrison located in Fort XI capitulated practically without fight. On this reason it is the most undisturbed and well-preserved fort among other Kaliningrad forts. Nowadays guests visiting Fort XI Donhoff have possibility to touch pure history and see with their own eyes the part of Koenigsberg defensive system that existed before 1945. There are such interesting exhibits and objects as original German gate, iron spiral staircases, barracks corridors, an observation post, the operating lifting mechanism for a raising of ammunition, etc. Now it is under the management of a private company that preserves its identity and develops the fort as a museum, touristic, cultural and artisan center.</string>
+		<key>long_description</key>
+		<string>One of the most well-preserved forts, largely due to the fact that it escaped the full on attack suffered by the Fort #5 on the other side of the city and then in the post-war years it was used to stockpile captured German small arms and ammunition. For many years the fort was closed to visitors, but it is now available to visit and with most of the internal walls still intact, you can get a much better idea of what life would have looked like. The easiest way to get out to the fort is to take a taxi. With it being quite a distance outside the centre, it is worth considering coming to an agreement with your taxi driver to wait for you to bring you back. When we visited we agreed a round trip of 1,000 rubles including wait time. Note that the inside of the fort, even in hot weather, is cool and damp meaning a sweater is advisable in summer and warmer clothing a necessity is less pleasant weather. You enter via the main gate positioned on the city centre facing side of the fort. Pass the guardhouse before crossing over the internal moat to the heart of the defence. You&apos;ll see barracks to either side at ground level and the fort rising up in front of you. Entering the main entrance you are faced with a long, brick, corridor which gently slopes away from you off it a series of corridors and smaller rooms whose role is unclear. There are a few small exhibitions in these rooms of war-time photography, weapons and ammunition as well as some furniture and photos of a battle-scarred Konigsberrg. The living quarters are rather empty though there are some beds in the barrack area and you can see how each room would have been heated by its own fireplace. Climbing up and through the fort you&apos;ll see the remains of the lift systems used to bring shells from the ammunition bunkers in the depths of the fortifications to supply the heavy guns spread across the top of the embankments. Sadly they have long gone so we have to imagine how fearful an operational fort must have looked. The trip out there is definitely worth it if you are interested in the outer ring and how it served to defend the city. You will also find a small shop selling local arts, a cafe serving Turkish coffee and at certain times during the year there are archery and battle reconstructions.</string>
+		<key>map</key>
+		<string>https://www.google.com/maps/search/Fort+XI+Donhoff/@54.7046557,20.4352487,12z/data=!3m1!4b1</string>
+		<key>image</key>
+		<string>Fort_XI_Donhoff.jpeg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Friedland Gates Museum</string>
+		<key>city</key>
+		<string>Kaliningrad</string>
+		<key>short_description</key>
+		<string>Local history museum “Friedland gate” is located in similarly named architectural monument of XIX century- town gates “Friedland”, which were build in 1862 and which used to be a part of town fortifications of Koenigsberg.The museum is dedicated to the history of prewar Koenigsberg. And it’s block-stone road “leads” to the past of forever gone town Koenigsberg…Under the gates, combining he real block-stone road and it’s image on old prewar photos which are projected on lateral walled up embrasures; begins the unbelievable by force of emotional impact stroll across the streets of old town, “taking away” the walls and opening out the borders of time and space. The carts creak, the walking by ladies heels click, the children laugh – Friedland gate opens the time portal to the town which no longer exists. The “stroll” lasts exactly an hour and during this time you may “pass” according logically build route the whole historical center of the town look into town windows of the shops, cafes, pharmacies (the museum windows are designed in the form of street windows), to bargain at the fish market, and at the end of the stroll, just by one step come from a virtual park to find yourself in a real landscape park spreading across the bounds of Friedland gate and made on the place of former fortifications.</string>
+		<key>long_description</key>
+		<string>Set a little way out of the centre on the southern defensive line of the Inner Ring, the Friedland Fate and the museum it holds is worth taking a trip out to see. The gate itself is impressive enough, but it’s the exhibitions inside which make the trip rather poignant but nonetheless worthwhile. Set over a few rooms are collections of everyday household items recovered from the rubble of what was left of Königsberg and from the lakes in the nearby South Park. There is a mock-up of a Königsberg street with shops and kiosks each side displaying typical pre-war goods and at the end of the cobbled room is a black and white photo of old Königsberg. Periodically a short film is shown showing photos and bits of film of Königsberg which gives you a look back through time into a period, onto streets and a city that simply no longer exists. It’s a peculiar exhibition but one which does leave an effect. Take a moment to look around outside at the remains of the outward facing fortifications before passing through the rest of the museum where you’ll see a small presentation on the city’s fortifications; an exhibition on knights and, peculiarly, an exhibition on city sewerage. As with most museums in Kaliningrad, the lack of English explanation might frustrate but there is enough to see and understand here to make it a good use of your time.</string>
+		<key>map</key>
+		<string>https://www.google.com/maps?q=Friedland+Gates+Museum&amp;source=lmns&amp;bih=920&amp;biw=1920&amp;hl=ru&amp;ved=2ahUKEwjO7YjRhPznAhXJW5oKHfowBsUQ_AUoAXoECAEQAQ</string>
+		<key>image</key>
+		<string>Friedland_Gates_Museum.jpeg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>King&apos;s Gates</string>
+		<key>city</key>
+		<string>Kaliningrad</string>
+		<key>short_description</key>
+		<string> The Historical and Cultural Centre “The Grand Embassy” in the King’s Gate (Department of the Museum of the World Ocean) The museum is located in the historical building, which used to be one of the elements of the old city’s defensive system of the XIX century. In 1843, laying of the gate’s foundation stone was attended by King Friedrich Wilhelm IV of Prussia. Rulers, craftspeople and peasants went through the gate.Today the King’s Gate is a museum dedicated to the origin and development of the fortress-town, visits of outstanding foreigners to Koenigsberg, origin of Russian diplomacy and old links between this land and Russia. Keys, locks, chest, rare maps and images reconstruct the discrepant history of Koenigsberg-Kaliningrad step by step. The famous Prussian Cat meets all the visitors. He is a keeper of the city’s keys and brings luck to everybody who strokes him.There is a souvenir art galley “Poterna” located in the immediate vicinity of the Gate. Poterna used to be an integral part of the defensive belt surrounding Koenigsberg of the XIX century as well.</string>
+		<key>long_description</key>
+		<string>The King&apos;s Gate was originally the Gumbinnen Gate (German: Gumbinner Tor), built in 1765 at the edge of the district Neue Sorge. In 1811 it was renamed the King&apos;s Gate and was the terminus of the Königstraße boulevard. The gate was redesigned by Friedrich August Stüler in 1850. The west facade has three sandstone statues, made by sculptor Wilhelm Stürmer: nine metres above the ground to the left the Bohemian king Ottokar II is depicted, who was Königsberg&apos;s namesake. Frederick I of Prussia, Prussia&apos;s first king, follows as the middle statue. To the right Albert, Prussia&apos;s first duke and founder of the Albertina university, holds an eye over the city. Above the sculptures the coat of arms of Samland and Natangen are shown. The gate was damaged during the Second World War. Furthermore, as a first victory celebration, Soviet soldiers decapitated the statues. With the celebration of the city&apos;s 750-year existence in June 2005, the gate was renovated. A few months before the beginning of the festivities, the gate was still in a desolate condition. Within a few weeks, however, the gate was restored to its condition before the war. Fully restored statues replaced the decapitated ones on the gate with this renovation.</string>
+		<key>map</key>
+		<string>https://www.google.com/maps?q=king+gate+kaliningrad&amp;source=lmns&amp;hl=ru&amp;ved=2ahUKEwjbos6ShfznAhVHZJoKHV5CA98Q_AUoAXoECAEQAQ</string>
+		<key>image</key>
+		<string>King&apos;s_Gates.jpeg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Kaliningrad&apos;s Museum of History and Art</string>
+		<key>city</key>
+		<string>Kaliningrad</string>
+		<key>short_description</key>
+		<string>It was opened right after the war and is the oldest museum of the city. The museum started to collect its exhibits in 1946. The main museum building is the former town hall Stadthalle, built in Koenigsberg in 1912 by the architect Richard Seele in art nouveau. The museum displays permanent and temporary exhibitions in 11 halls. The visitors get acquainted with the nature, history and culture of the region. The museum includes separately located exhibitions, such as: the Park of Sculpture (situated on the island near the city center), the Мuseum exhibition in the open air &quot;Koenigsberg Castle&quot;, the Blindage Museum (the war bunker, where Otto Lasch decided to sign the Act of Capitulation), the Museum of fighting glory &quot;Fort № 5&quot;, the Memorial Museum of Kristijonas Donelaitis in Chistye Prudy, Nesterovskiy district</string>
+		<key>long_description</key>
+		<string>A visit to the ethnographically oriented History &amp; Art Museum is an odd experience these days. Totally without signposting outside, we would have walked straight past but for the museum-like size and grandeur of the red-roofed building and garden. Originally serving as the Stadthalle concert hall, the building was badly damaged during air-raids in 1944 and stood in ruin until being rebuilt in 1991. Inside, the place is in the midst of another major long-term renovation project and it shows – two floors of generally interesting exhibits, covering everything from stuffed Russian fauna to military uniforms and an in-depth dissection of the Battle of Königsberg, sit in sparse rooms without floor skirting where insulation foam frames the doorways. In spite of this and the usual infuriating dearth of information in English, there are nevertheless some notable highlights to get excited about, mostly upstairs. Chief among these is a 1:1 scale model of an obliterated Königsberg street strewn with rubble and twisted metal which comes to life with terrifying air raid audio. The extensive collection of Soviet propaganda posters, more often than not packed with black humour, is another.</string>
+		<key>map</key>
+		<string>https://www.google.com/maps?q=Kaliningrad%27s+Museum+of+History+and+Art&amp;source=lmns&amp;bih=920&amp;biw=1920&amp;hl=ru&amp;ved=2ahUKEwiVtMvJhfznAhWFSJoKHSmtBKEQ_AUoAXoECAEQAQ</string>
+		<key>image</key>
+		<string>Kaliningrad&apos;s_Museum_of_History_and_Art.jpeg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Bunker Museum</string>
+		<key>city</key>
+		<string>Kaliningrad</string>
+		<key>short_description</key>
+		<string>The city’s last German commander, Otto Lasch, capitulated to the Soviets from this subterranean command post on 9 April 1945, following the bloody Battle of Königsberg. Exhibits include wartime photographs, films, detailed dioramas of the battle in various parts of the city and a peek into the cell where Lasch surrendered. There&apos;s decent English and German signage. Find it in a small park just east of Leninsky pr.</string>
+		<key>long_description</key>
+		<string>The museum of the storming of Koenigsberg is located in the bunker. This is a one-storied underground concrete bombproof shelter which is 7 meters deep, 42 meters long, 15 meters wide and consists of 21 rooms. The bunker has all systems to support life. There was a headquarters of the German command leading Koenigsberg defences since March 1945. In the bunker General Otto Lasch decided to sign the Act of Capitulation. He was the commandant of Koenigsberg. The atmosphere of the Second World War is reestablished in the premises. The dioramas and the materials telling about storming of Koenigsberg by the Soviet Army are exhibited in the museum. The bunker’s gate was covered by runic symbols. According to one of the versions it was meant for German headquarters magic defence.</string>
+		<key>map</key>
+		<string>https://www.google.com/maps?q=bunker+museum+kaliningrad&amp;source=lmns&amp;bih=920&amp;biw=1920&amp;hl=ru&amp;ved=2ahUKEwiOqsaGhvznAhUGdJoKHXswDfUQ_AUoAnoECAEQAg</string>
+		<key>image</key>
+		<string>Bunker_Museum.jpeg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Kaliningrad Zoo</string>
+		<key>city</key>
+		<string>Kaliningrad</string>
+		<key>short_description</key>
+		<string>If you’re the kind of person who doesn’t really like zoos, you’ll hate Kaliningrad Zoo. In many ways the zoo reflects the city in which it is located – desperately rundown in parts; brand spanking new in others (often right next to each other); traces of old Königsberg in others and the authorities trying hard to figure out how to bring everything up to standard as quickly as possible throughout.</string>
+		<key>long_description</key>
+		<string>he Kaliningrad zoo is situated on the territory of the Koenigsberg zoo, which was founded on May 21, 1896 by Herman Klaass. It is located within a scenic historical city center and is open to visitors all year round. In summer, our visitors can watch animals in outdoor enclosures and swimming pools. In winter the animals can be seen in their warm facilities: the Tropical house, the South American animals&apos; pavilion, the tropical animals&apos; pavilion, the House of birds, the Terrarium, the Aquarium and tapirs and hippos houses. Our visitors can enjoy several open-air cafes and one small restaurant. Every day in the House of Contact Animals you can get acquainted with some friendly zoo inhabitants: chinchillas, rabbits, degus, ferrets and hamsters. There is a museum, dedicated to the evolution of zoos from some kind of &quot;beast shows&quot; to modern breeding and conservation centers for rare species. Here you can listen to interesting stories from the past of the Kaliningrad Zoo, learn about its present and look into the future of one of the three oldest Russian zoos</string>
+		<key>map</key>
+		<string>https://www.google.com/maps/place/%D0%9A%D0%B0%D0%BB%D0%B8%D0%BD%D0%B8%D0%BD%D0%B3%D1%80%D0%B0%D0%B4%D1%81%D0%BA%D0%B8%D0%B9+%D0%B7%D0%BE%D0%BE%D0%BF%D0%B0%D1%80%D0%BA/@54.7227847,20.4864496,17z/data=!3m1!4b1!4m5!3m4!1s0x46e33dfbebc1d441:0xe4e1f128ba1f1497!8m2!3d54.7227847!4d20.4886383</string>
+		<key>image</key>
+		<string>Kaliningrad_Zoo.jpeg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Red Square</string>
+		<key>city</key>
+		<string>Moscow</string>
+		<key>short_description</key>
+		<string>Red Square is a city square in Moscow, Russia. The buildings surrounding the Square are all significant: Nearby to the South is the elaborate brightly domed Saint Basil&apos;s Cathedral and the palaces and cathedrals of the Kremlin, Lenin&apos;s Mausoleum. On the Eastern side of the square is the GUM department store, and next to it the restored Kazan Cathedral.</string>
+		<key>long_description</key>
+		<string>Red Square  is a city square in Moscow, Russia. It separates the Kremlin, the former royal citadel and now the official residence of the President of Russia, from a historic merchant quarter known as Kitai-gorod. Red Square is often considered to be the central square of Moscow since the city&apos;s major streets, which connect to Russia&apos;s major highways, originate in the square.</string>
+		<key>map</key>
+		<string>https://www.google.com/maps/place/%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%B0%D1%8F+%D0%9F%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D1%8C/@55.7521039,37.6160992,14.79z/data=!4m8!1m2!2m1!1sRed+Square!3m4!1s0x0:0x7c347d506b52311f!8m2!3d55.7518494!4d37.6171875</string>
+		<key>image</key>
+		<string>Red_Square.jpeg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Bunker 42 Admission Ticket and Cold War Tour</string>
+		<key>city</key>
+		<string>Moscow</string>
+		<key>short_description</key>
+		<string>Enter a secret bunker below the streets of Moscow that was once reserved for Stalin himself. By pre-booking your admission ticket to Bunker 42, your entrance is guaranteed and you benefit from having a tour guide tell you all about the history of the bunker, which was constructed during the Cold War.</string>
+		<key>long_description</key>
+		<string>The &quot;Bunker 42&quot; was constructed in 1955 as command post of Strategic nuclear forces of Soviet Union. The “Bunker-42” on Taganka is a anti- nuclear underground facility. It was built in the 50s of the last century. The object occupies 7,000 sq.m. and located at a depth of 65 meter under Taganka Square. The Cold War Museum “Bunker 42” offers excursions of historical nuclear confrontation between two superpowers, a Soviet Union and the United States. You will learn how bunker’s construction is protected from the damaging factors of nuclear explosion. You will realize how the facility could protect from all the factors of atomic explosion and feel the seriousness of nuclear world war risk. in addition, we will show how the staff members operated inside the bunker and display the facility&apos;s unique architecture. Finally, we will show our special effects-imitation of nuclear missile launch that definitely won&apos;t leave you indifferent If you are interested in Stalin&apos;s controversial figure, &quot;The Cold War&quot; tour is waiting for you. The difference between two tours is simple, in &quot;The Cold War&quot; tour you&apos;ll visit Stalin&apos;s office, and The &quot;Diclassified&quot; tour will introduce you to some interesting facts, which we will show you in our documentary about the Cold War. Finally, we&apos;ll show our special effects - imitation of nuclear bomb explosion and nuclear missile launch that definitely won&apos;t leave you indifferent!</string>
+		<key>map</key>
+		<string>https://www.google.com/maps/@55.740403,37.651484,15z?hl=ru</string>
+		<key>image</key>
+		<string>Bunker_42_Cold_War_Museum.jpeg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Saint Basil&apos;s Cathedral</string>
+		<key>city</key>
+		<string>Moscow</string>
+		<key>short_description</key>
+		<string>Built by Ivan the Terrible in the 1550s, this intriguing cathedral bordering Red Square consists of nine separate chapels, each capped with its own individually shaped and colored dome.</string>
+		<key>long_description</key>
+		<string>The Cathedral of Vasily the Blessed, commonly known as Saint Basil&apos;s Cathedral, is a Christian church in Red Square in Moscow, Russia and is regarded as a symbol of the country. The building, now a museum, is officially known as the Cathedral of the Intercession of the Most Holy Theotokos on the Moat (Собо́р Покрова́ Пресвято́й Богоро́дицы, что на Рву, Sobor Pokrova Presvyatoy Bogoroditsy, chto na Rvu) or Pokrovsky Cathedral (Покро́вский собо́р). It was built from 1555 to 1561 on orders from Ivan the Terrible and commemorates the capture of Kazan and Astrakhan. It was the city&apos;s tallest building until the completion of the Ivan the Great Bell Tower in 1600. The original building, known as Trinity Church and later Trinity Cathedral, contained eight churches arranged around a ninth, central church of Intercession; a tenth church was erected in 1588 over the grave of venerated local saint Vasily (Basil). In the 16th and 17th centuries, the church, perceived (as with all churches in Byzantine Christianity) as the earthly symbol of the Heavenly City, was popularly known as the &quot;Jerusalem&quot; and served as an allegory of the Jerusalem Temple in the annual Palm Sunday parade attended by the Patriarch of Moscow and the Tsar. The building is shaped like the flame of a bonfire rising into the sky, a design that has no parallel in Russian architecture. Dmitry Shvidkovsky, in his book Russian Architecture and the West, states that &quot;it is like no other Russian building. Nothing similar can be found in the entire millennium of Byzantine tradition from the fifth to the fifteenth century ... a strangeness that astonishes by its unexpectedness, complexity and dazzling interleaving of the manifold details of its design.&quot; The cathedral foreshadowed the climax of Russian national architecture in the 17th century. As part of the program of state atheism, the church was confiscated from the Russian Orthodox community as part of the Soviet Union&apos;s antireligious campaigns and has operated as a division of the State Historical Museum since 1928. It was completely secularized in 1929 and remains a federal property of the Russian Federation. The church has been part of the Moscow Kremlin and Red Square UNESCO World Heritage Site since 1990. It is not actually within the Kremlin, but often served as a visual metonym for Russia and the USSR in western media throughout the Cold War and to the modern day, to the point of being confused at times with the Kremlin itself by foreigners. With the collapse of the USSR, weekly Orthodox Christian services with prayer to St. Basil have been restored since 1997.</string>
+		<key>map</key>
+		<string>https://www.google.com/maps/place/%D0%A5%D1%80%D0%B0%D0%BC+%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D0%B8%D1%8F+%D0%91%D0%BB%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE/@55.7525229,37.6208981,17z/data=!3m1!4b1!4m5!3m4!1s0x46b54a5962e69605:0xa4cf168ae7cb3ae5!8m2!3d55.7525229!4d37.6230868</string>
+		<key>image</key>
+		<string>Saint_Basil&apos;s_Cathedral.jpeg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>State Tretyakov Gallery</string>
+		<key>city</key>
+		<string>Moscow</string>
+		<key>short_description</key>
+		<string>The State Tretyakov Gallery is the national treasury of Russian fine art and contains more than 180,000 works of painting, sculpture and graphics created by generations of Russian artists.</string>
+		<key>long_description</key>
+		<string>The State Tretyakov Gallery is an art gallery in Moscow, Russia, the foremost depository of Russian fine art in the world. The gallery&apos;s history starts in 1856 when the Moscow merchant Pavel Mikhailovich Tretyakov acquired works by Russian artists of his day with the aim of creating a collection, which might later grow into a museum of national art. In 1892, Tretyakov presented his already famous collection of approximately 2,000 works (1,362 paintings, 526 drawings, and 9 sculptures) to the Russian nation. The façade of the gallery building was designed by the painter Viktor Vasnetsov in a peculiar Russian fairy-tale style. It was built in 1902–04 to the south from the Moscow Kremlin. During the 20th century, the gallery expanded to several neighboring buildings, including the 17th-century church of St. Nicholas in Tolmachi. The collection contains more than 130,000 exhibits, ranging from Theotokos of Vladimir and Andrei Rublev&apos;s Trinity to the monumental Composition VII by Wassily Kandinsky and the Black Square by Kazimir Malevich. In 1977 the Gallery kept a significant part of the George Costakis collection.</string>
+		<key>map</key>
+		<string>https://www.google.com/maps/place/%D0%93%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F+%D0%A2%D1%80%D0%B5%D1%82%D1%8C%D1%8F%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%B3%D0%B0%D0%BB%D0%B5%D1%80%D0%B5%D1%8F/@55.741389,37.6186752,17z/data=!3m1!4b1!4m5!3m4!1s0x46b54afe32078357:0xa50d6e8b9a7b028f!8m2!3d55.741389!4d37.6208639</string>
+		<key>image</key>
+		<string>State_Tretyakov_Gallery.jpeg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Armoury Chamber</string>
+		<key>city</key>
+		<string>Moscow</string>
+		<key>short_description</key>
+		<string>A dazzling array of treasures from the 4th to the 20th century are housed in this Kremlin museum, including thrones and carriages of the tsars, the works of Moscow silver and goldsmiths, arms, jewels, precious Russian Easter eggs and other Russian and foreign decorative arts.</string>
+		<key>long_description</key>
+		<string>The Armoury Chamber, a treasure house, is a part of the Grand Kremlin Palace&apos;s complex. It is situated in the building constructed in 1851 by the famous architect Konstantin Ton. The museum collections were based on the precious items that had been preserved for centuries in the tsars&apos; treasury and the Patriarch’s vestry. Some of the exhibits were made in the Kremlin workshops, others were accepted as ambassadorial gifts. The museum was named after one of the oldest Kremlin&apos;s treasury.  The Armoury Chamber preserves ancient State regalia, ceremonial royal garment and coronation dresses, vestments of the Russian Orthodox Church Hierarchs, the largest collection of gold- and silverware made by Russian craftsmen, West European artistic silver, ceremonial arms and armour, carriages and horse ceremonial harness. The State Armoury presents more than four thousands items of applied art made in Russia, European and Eastern countries in the 4th to early 20th century. The highest artistic level and particular historical and cultural value of the exhibits have made the State Armoury of the Moscow Kremlin a world-wide known museum.</string>
+		<key>map</key>
+		<string>https://www.google.com/maps/place/%D0%9E%D1%80%D1%83%D0%B6%D0%B5%D0%B9%D0%BD%D0%B0%D1%8F+%D0%BF%D0%B0%D0%BB%D0%B0%D1%82%D0%B0/@55.749766,37.6112438,17z/data=!3m1!4b1!4m5!3m4!1s0x46b54a5a7e436d39:0x23021a83220bc817!8m2!3d55.7495732!4d37.6134111</string>
+		<key>image</key>
+		<string>Armoury_Chamber.jpeg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>The Museum of Cosmonautics</string>
+		<key>city</key>
+		<string>Moscow</string>
+		<key>short_description</key>
+		<string> The Memorial Museum of Cosmonautics  is a museum in Moscow, Russia, dedicated to space exploration. It is located within the base of the Monument to the Conquerors of Space in the north-east of the city. The museum contains a wide variety of Soviet and Russian space-related exhibits and models which explore the history of flight; astronomy; space exploration; space technology; and space in the arts. According to the Russian tourist board, the museum&apos;s collection holds approximately 85,000 different items and receives approximately 300,000 visitors yearly.</string>
+		<key>long_description</key>
+		<string>The Monument to the Conquerors of Space was erected at Prospekt Mira in Moscow. This outstanding city landmark has been jointly designed by architects Michail Barsh and Andrey Kolchin, and sculptor Andrey Faydish-Krandiyevskiy. September 28th, 1967 Soviet government initiates founding of the Museum of Cosmonautics at the foot of the Monument to the Conquerors of Space to commemorate nation&apos;s achievements in space exploration. The Museum of Cosmonautics opens its doors to public on April 10th, 1981, 20th Anniversary of the first manned space flight. Museum exposition gives a retrospect on how Soviet space science evolved starting from first man-made satellites subsequently followed by the first manned space flight, first space walks, Moon exploration programs, Solar system exploration programs and international space research programs. Intricate interior design and unusual exposition altogether created a unique individuality of the Museum. However, new times set new standards. 25 years since its first opening the Museum has been closed down for a massive renovation. Now the Museum shows all the newly accumulated information and latest technologies.</string>
+		<key>map</key>
+		<string>https://www.google.com/maps/place/%D0%9C%D1%83%D0%B7%D0%B5%D0%B9+%D0%BA%D0%BE%D1%81%D0%BC%D0%BE%D0%BD%D0%B0%D0%B2%D1%82%D0%B8%D0%BA%D0%B8/@55.8229932,37.637648,17z/data=!3m1!4b1!4m5!3m4!1s0x46b536716ba5198d:0xab849b6e8af9b84a!8m2!3d55.8229932!4d37.6398367</string>
+		<key>image</key>
+		<string>The_Museum_of_Cosmonautics.jpeg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Palace of Tsar Alexei Mikhailovich in Kolomenskoye</string>
+		<key>city</key>
+		<string>Moscow</string>
+		<key>short_description</key>
+		<string> Kolomenskoye is a former royal estate situated several kilometers to the southeast of the city center of Moscow, Russia, on the ancient road leading to the town of Kolomna (hence the name). The 390 hectare scenic area overlooks the steep banks of the Moskva River. It became a part of Moscow in the 1960s.</string>
+		<key>long_description</key>
+		<string>Tsar Alexis I had all the previous wooden structures in Kolomenskoye demolished and replaced them with a new great wooden palace, famed for its fanciful, fairytale roofs. Foreigners referred to this huge maze of intricate corridors and 250 rooms, as &apos;an Eighth Wonder of the World&apos;. Although basically only a summer palace, it was the favorite residence of Tsar Alexis I. The future Empress Elizabeth Petrovna was born in the palace in 1709, and Tsar Peter the Great spent part of his youth here. Upon the departure of the court for St. Petersburg, the palace fell into disrepair, so that Catherine II refused to make it her Moscow residence. On her orders the wooden palace was demolished in 1768, and replaced with a much more modest stone-and-brick structure. Detailed plans of the Alexis I palace survived. The Moscow Government has completed a full-scale reconstruction in 2010. The rebuilt palace stands approximately 1 kilometer (0.62 mi) to the south of its original location near the White Column, in order to preserve the historic foundations. The palace erected by Catherine the Great in 1768 was demolished in 1872, and only a few gates and outside buildings remain. Kolomenskoe Museum-Reserve in Moscow. Wooden St. George Church. During the early Soviet period, under the initiative of architect and restorer Pyotr Baranovsky, old wooden buildings and various artifacts were transported to Kolomenskoye from different parts of the USSR for preservation, so currently Kolomenskoye Park hosts an impressive set of different constructions and historical objects.</string>
+		<key>map</key>
+		<string>https://www.google.com/maps/search/Palace+of+Tsar+Alexei+Mikhailovich+in+Kolomenskoye/@55.6704144,37.6673095,17z/data=!3m1!4b1</string>
+		<key>image</key>
+		<string>Palace_of_Tsar_Alexei_Mikhailovich_in_Kolomenskoye.jpeg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Tsaritsyno Museum-Reserve</string>
+		<key>city</key>
+		<string>Moscow</string>
+		<key>short_description</key>
+		<string>Tsaritsyno is located in the south of Moscow and includes an architectural complex of the late 18th century, Greenhouses, Historical Landscaped Park with ponds and new park zones with Light dynamic fountain. The territory covers 405 hectares. The palace complex created as a suburb residence of the Empress Catherine II. It was designed and built by the architect Vasily Bazhenov. Later the new Grand Palace by Matvey Kazakov became the center of composition. The buildings were not completed. After the Empress’s death work stopped.</string>
+		<key>long_description</key>
+		<string>The 18th-century architecture ensemble was built (though not finished) following the order of Catherine II in Neo-Gothic style, after projects of the Bazhenov and Kazakov, and it is the only 18th-century architectural ensemble of such dimensions in Russia. Around the palace, in the park there are a number of pavilions, pergolas, arbours, artificial grottos, decorative bridges (early 19th century, architect I. Yegotov), and a Russian Orthodox temple “Source of Life”, as well as a modern recreation center with an upscale restaurant. For a long time most buildings were ruined (and used for rock climbing). In 2005-2007 most buildings were extensively restored and completed: roofs, interiors and decorations have been added and their historical appearance has been altered. A number of buildings house the Russian museum of folk and applied art. The atrium of the “Bread House” is used for concerts of Moscow musicians. The park grounds contain a group of burial mounds (Kurgans) that belong to the Early Slavs tribe Vyatichs dated to the 11th-13th century.</string>
+		<key>map</key>
+		<string>https://www.google.com/maps/place/%D0%9C%D1%83%D0%B7%D0%B5%D0%B9-%D0%B7%D0%B0%D0%BF%D0%BE%D0%B2%D0%B5%D0%B4%D0%BD%D0%B8%D0%BA+%D0%A6%D0%B0%D1%80%D0%B8%D1%86%D1%8B%D0%BD%D0%BE/@55.6116874,37.6839599,17z/data=!3m1!4b1!4m5!3m4!1s0x414ab3cc65ff1f95:0x6261499f9a7afd91!8m2!3d55.6116874!4d37.6861486</string>
+		<key>image</key>
+		<string>Tsaritsyno_Museum-Reserve.jpeg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Ostankino Palace and Museum</string>
+		<key>city</key>
+		<string>Moscow</string>
+		<key>short_description</key>
+		<string>A fine example of Neo-Classical architecture, this elegant palace, with an adjacent park, belonged to one of the wealthiest families of the late 18th century, and boasts a magnificent interior with fabric-lined walls, bronze sculptures and woodcarvings.</string>
+		<key>long_description</key>
+		<string>The Ostankino Estate is an architectural ensemble of the XVII-XVIII centuries that used to be the out-of-town residence of Counts Sheremetevi. Nowadays the Ostankino museum-estate, which received its first visitors on 1 May 1919, is the heart of the architectural and park ensemble. The palace-theater of the Ostankino estate had been designed by F. Kamporezi and V. Brenna, and then it was built by Russian architects P. Argunov, A. Mironov and G. Dikushin in the period between 1792 and 1799. Today this palace is the world&apos;s only monument of architecture that is an entirely wooden construction that has retained numerous authentic interiors and theatrical mechanisms of the end of the XVIII century within its walls. The great-halls of the theater foyer, the make-up rooms for serf actors, the branch of theatrical machinery and the furnace rooms of the palace-theater had never been exposed to a large-scale restoration until recently</string>
+		<key>map</key>
+		<string>https://www.google.com/maps/search/Ostankino+Palace+and+Museum/@55.8240233,37.6096386,14z/data=!3m1!4b1</string>
+		<key>image</key>
+		<string>Ostankino_Palace_and_Museum.jpeg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Mosfilm</string>
+		<key>city</key>
+		<string>Moscow</string>
+		<key>short_description</key>
+		<string>Mosfilm is a film studio which is among the largest and oldest in the Russian Federation and in Europe. Its output includes most of the more widely acclaimed Soviet-era films, ranging from works by Andrei Tarkovsky and Sergei Eisenstein (commonly considered the greatest Soviet director), to Red Westerns to the Akira Kurosawa co-production Dersu Uzala  and the epic War and Peace.</string>
+		<key>long_description</key>
+		<string> The Moscow film production unit with studio facilities was established in November 1923 by the motion picture mogul Aleksandr Khanzhonkov (&quot;first film factory&quot;) and I. Ermolev (&quot;third film factory&quot;) as a unit of the Goskino works. The first movie filmed by Mosfilm was On the Wings Skyward (directed by Boris Mikhin). In 1927 the construction of a new film studio complex began on Mosfilmovskaya Street in Sparrow Hills of Moscow. This film studio was named after the Moscow amalgamated factory Soyuzkino the Tenth Anniversary of the October. In 1934 the film studio was renamed to Moskinokombinat, and in 1936 – to Mosfilm. During World War II the film studio personnel were evacuated to Alma-Ata (August 1941) and merged with other Soviet production units into the Central United Film Studio (TsOKS). The Mosfilm personnel returned to Moscow at the end of 1943. The famous Mosfilm logo, representing the monument &quot;Worker and Kolkhoz Woman&quot; by Vera Mukhina and Spasskaya Tower of the Kremlin, was introduced in 1947 in the musical comedy, Spring directed by Grigori Aleksandrov and starring Lyubov Orlova and Nikolai Cherkasov. By the time the Soviet Union was no more, Mosfilm had produced more than 3,000 films. Many film classics were shot at Mosfilm throughout its history and some of these were granted international awards at various film festivals. After the dissolution of the Soviet Union, Mosfilm continued operations as a quasi-private production company, led by film director Karen Shakhnazarov. As of 2005, the company embraced ten independent studios, located within 13 sound stages occupying an area of 13,000 sq. meters. Tours through this &quot;Russian Hollywood&quot; become increasingly popular, as they allow to view Mosfilm&apos;s enormous depot with 170 tanks and 50 vintage cars. The biggest sound stage is leased annually to hold the Golden Eagle Awards. In 2011, Mosfilm released a selection of its classic films online for free viewing.</string>
+		<key>map</key>
+		<string>https://www.google.com/maps/place/%D0%9C%D0%BE%D1%81%D1%84%D0%B8%D0%BB%D1%8C%D0%BC/@55.7224957,37.5303908,17z/data=!3m1!4b1!4m5!3m4!1s0x46b54bf45583f56b:0x49410debc18deee6!8m2!3d55.7224957!4d37.5325794</string>
+		<key>image</key>
+		<string>Mosfilm.jpeg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Eiffel Tower</string>
+		<key>city</key>
+		<string>Paris</string>
+		<key>short_description</key>
+		<string>Completed in 1889, this colossal landmark, although initially hated by many Parisians, is now a famous symbol of French civic pride.</string>
+		<key>long_description</key>
+		<string>The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France. It is named after the engineer Gustave Eiffel, whose company designed and built the tower. Constructed from 1887 to 1889 as the entrance to the 1889 World&apos;s Fair, it was initially criticised by some of France&apos;s leading artists and intellectuals for its design, but it has become a global cultural icon of France and one of the most recognisable structures in the world. The Eiffel Tower is the most-visited paid monument in the world; 6.91 million people ascended it in 2015. The tower is 324 metres (1,063 ft) tall, about the same height as an 81-storey building, and the tallest structure in Paris. Its base is square, measuring 125 metres (410 ft) on each side. During its construction, the Eiffel Tower surpassed the Washington Monument to become the tallest man-made structure in the world, a title it held for 41 years until the Chrysler Building in New York City was finished in 1930. It was the first structure to reach a height of 300 metres. Due to the addition of a broadcasting aerial at the top of the tower in 1957, it is now taller than the Chrysler Building by 5.2 metres (17 ft). Excluding transmitters, the Eiffel Tower is the second tallest free-standing structure in France after the Millau Viaduct. The tower has three levels for visitors, with restaurants on the first and second levels. The top level&apos;s upper platform is 276 m (906 ft) above the ground – the highest observation deck accessible to the public in the European Union. Tickets can be purchased to ascend by stairs or lift to the first and second levels. The climb from ground level to the first level is over 300 steps, as is the climb from the first level to the second. Although there is a staircase to the top level, it is usually accessible only by lift.</string>
+		<key>map</key>
+		<string>https://www.google.com/maps/place/%D0%AD%D0%B9%D1%84%D0%B5%D0%BB%D0%B5%D0%B2%D0%B0+%D0%B1%D0%B0%D1%88%D0%BD%D1%8F/@48.8583701,2.2922926,17z/data=!3m1!4b1!4m5!3m4!1s0x47e66e2964e34e2d:0x8ddca9ee380ef7e0!8m2!3d48.8583701!4d2.2944813</string>
+		<key>image</key>
+		<string>Eiffel_Tower.jpeg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string> Arc de Triomphe</string>
+		<key>city</key>
+		<string>Paris</string>
+		<key>short_description</key>
+		<string>The Arc de triomphe was begun in 1806, on the orders of Napoleon I to honour the victories of his Grande Armée. Inspired by the great arches of antiquity, the monument combines the commemorative with the symbolic and it has always played a major role in the national republican consciousness. Every evening, the flame is lit on the tomb of the Unknown Soldier from the Great War. An exhibition portrays the history and explains its symbolic importance, nationally as well as internationally. The terrace provides superb views both by day and night across the city and its great sweeping avenues.</string>
+		<key>long_description</key>
+		<string>The Arc de Triomphe is one of the most famous monuments in Paris, France, standing at the western end of the Champs-Élysées at the centre of Place Charles de Gaulle, formerly named Place de l&apos;Étoile—the étoile or &quot;star&quot; of the juncture formed by its twelve radiating avenues. The location of the arc and the plaza is shared between three arrondissements, 16th (south and west), 17th (north) and 8th (east). The Arc de Triomphe honours those who fought and died for France in the French Revolutionary and Napoleonic Wars, with the names of all French victories and generals inscribed on its inner and outer surfaces. Beneath its vault lies the Tomb of the Unknown Soldier from World War I. As the central cohesive element of the Axe historique (historic axis, a sequence of monuments and grand thoroughfares on a route running from the courtyard of the Louvre to the Grande Arche de la Défense), the Arc de Triomphe was designed by Jean Chalgrin in 1806; its iconographic programme pits heroically nude French youths against bearded Germanic warriors in chain mail. It set the tone for public monuments with triumphant patriotic messages. Inspired by the Arch of Titus in Rome, Italy, the Arc de Triomphe has an overall height of 50 metres (164 ft), width of 45 m (148 ft) and depth of 22 m (72 ft), while its large vault is 29.19 m (95.8 ft) high and 14.62 m (48.0 ft) wide. The smaller transverse vaults are 18.68 m (61.3 ft) high and 8.44 m (27.7 ft) wide. Three weeks after the Paris victory parade in 1919 (marking the end of hostilities in World War I), Charles Godefroy flew his Nieuport biplane under the arch&apos;s primary vault, with the event captured on newsreel.Paris&apos;s Arc de Triomphe was the tallest triumphal arch until the completion of the Monumento a la Revolución in Mexico City in 1938, which is 67 metres (220 ft) high. The Arch of Triumph in Pyongyang, completed in 1982, is modelled on the Arc de Triomphe and is slightly taller at 60 m (197 ft). La Grande Arche in La Defense near Paris is 110 metres high. Although it is not named an Arc de Triomphe, it has been designed on the same model and in the perspective of the Arc de Triomphe. It qualifies as the world&apos;s tallest arch.</string>
+		<key>map</key>
+		<string>https://www.google.com/maps/place/%D0%A2%D1%80%D0%B8%D1%83%D0%BC%D1%84%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F+%D0%B0%D1%80%D0%BA%D0%B0/@48.8737917,2.2928388,17z/data=!3m1!4b1!4m5!3m4!1s0x47e66fec70fb1d8f:0xd9b5676e112e643d!8m2!3d48.8737917!4d2.2950275</string>
+		<key>image</key>
+		<string>Arc_de_Triomphe.jpeg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Louvre Museum</string>
+		<key>city</key>
+		<string>Paris</string>
+		<key>short_description</key>
+		<string>Home to Leonardo da Vinci&apos;s Mona Lisa, the Louvre is considered the world&apos;s greatest art museum, with an unparalleled collection of items covering the full spectrum of art through the ages.</string>
+		<key>long_description</key>
+		<string> The Louvre is the world&apos;s largest art museum and a historic monument in Paris, France. A central landmark of the city, it is located on the Right Bank of the Seine in the city&apos;s 1st arrondissement (district or ward). Approximately 38,000 objects from prehistory to the 21st century are exhibited over an area of 72,735 square meters (782,910 square feet).In 2019, the Louvre received 9.6 million visitors. The museum is housed in the Louvre Palace, originally built as the Louvre castle in the late 12th to 13th century under Philip II. Remnants of the fortress are visible in the basement of the museum. Due to urban expansion, the fortress eventually lost its defensive function, and in 1546 Francis I converted it into the primary residence of the French Kings. The building was extended many times to form the present Louvre Palace. In 1682, Louis XIV chose the Palace of Versailles for his household, leaving the Louvre primarily as a place to display the royal collection, including, from 1692, a collection of ancient Greek and Roman sculpture. In 1692, the building was occupied by the Académie des Inscriptions et Belles-Lettres and the Académie Royale de Peinture et de Sculpture, which in 1699 held the first of a series of salons. The Académie remained at the Louvre for 100 years. During the French Revolution, the National Assembly decreed that the Louvre should be used as a museum to display the nation&apos;s masterpieces. The museum opened on 10 August 1793 with an exhibition of 537 paintings, the majority of the works being royal and confiscated church property. Because of structural problems with the building, the museum was closed in 1796 until 1801. The collection was increased under Napoleon and the museum was renamed Musée Napoléon, but after Napoleon&apos;s abdication, many works seized by his armies were returned to their original owners. The collection was further increased during the reigns of Louis XVIII and Charles X, and during the Second French Empire the museum gained 20,000 pieces. Holdings have grown steadily through donations and bequests since the Third Republic. The collection is divided among eight curatorial departments: Egyptian Antiquities; Near Eastern Antiquities; Greek, Etruscan and Roman Antiquities; Islamic Art; Sculpture; Decorative Arts; Paintings; Prints and Drawings.</string>
+		<key>map</key>
+		<string>https://www.google.com/maps?q=Louvre+Museum&amp;um=1&amp;ie=UTF-8&amp;sa=X&amp;ved=2ahUKEwjXx96hnPznAhWkxaYKHdRuCRYQ_AUoAnoECCQQBA</string>
+		<key>image</key>
+		<string>Louvre_Museum.jpeg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Cathedrale Notre-Dame de Paris</string>
+		<key>city</key>
+		<string>Paris</string>
+		<key>short_description</key>
+		<string>This famous cathedral, a masterpiece of Gothic architecture on which construction began in the 12th century, stands on the Île de la Cité and is the symbolic heart of the city.</string>
+		<key>long_description</key>
+		<string>Notre-Dame de Paris, referred to simply as Notre-Dame, is a medieval Catholic cathedral on the Île de la Cité in the 4th arrondissement of Paris. The cathedral was consecrated to the Virgin Mary and considered to be one of the finest examples of French Gothic architecture. Its pioneering use of the rib vault and flying buttress, its enormous and colourful rose windows, as well as the naturalism and abundance of its sculptural decoration set it apart from the earlier Romanesque style. Major components that make Notre Dame stand out include one of the world&apos;s largest organs and its immense church bells. The cathedral&apos;s construction began in 1160 under Bishop Maurice de Sully and was largely complete by 1260, though it was modified frequently in the following centuries. In the 1790s, Notre-Dame suffered desecration during the French Revolution; much of its religious imagery was damaged or destroyed. In the 19th century, the cathedral was the site of the coronation of Napoleon I and funerals of many Presidents of the Republic. Popular interest in the cathedral blossomed soon after the publication, in 1831, of Victor Hugo&apos;s novel Notre-Dame de Paris (better known in English as The Hunchback of Notre-Dame). This led to a major restoration project between 1844 and 1864, supervised by Eugène Viollet-le-Duc. The liberation of Paris was celebrated within Notre-Dame in 1944 with the singing of the Magnificat. Beginning in 1963, the cathedral&apos;s façade was cleaned of centuries of soot and grime. Another cleaning and restoration project was carried out between 1991 and 2000. The cathedral is one of the most widely recognized symbols of the city of Paris and the French nation. As the cathedral of the Archdiocese of Paris, Notre-Dame contains the cathedra of the Archbishop of Paris (Michel Aupetit). In 1805, Notre-Dame was given the honorary status of a minor basilica. Approximately 12 million people visit Notre-Dame annually, making it the most visited monument in Paris. The cathedral was renowned for its Lent sermons, founded by the Dominican Jean-Baptiste Henri Lacordaire in the 1830s. In recent years, an increasing number have been given by leading public figures and state-employed academics. The cathedral has been progressively stripped of its original decoration and works of art. Several noteworthy examples of Gothic, Baroque, and 19th-century sculptures and a group of 17th- and early 18th-century altarpieces remain in the cathedral&apos;s collection. Some of the most important relics in Christendom, including the Crown of Thorns, a sliver of the true cross and a nail from the true cross, are preserved at Notre-Dame. While undergoing renovation and restoration, the roof of Notre-Dame caught fire on the evening of 15 April 2019. Burning for around 15 hours, the cathedral sustained serious damage, including the destruction of the flèche (the timber spire over the crossing) and most of the lead-covered wooden roof above the stone vaulted ceiling. Contamination of the site and the nearby environment resulted. Following the April fire, many proposals were made for modernizing the cathedral&apos;s design. However, on 16 July 2019, the French Parliament passed a law requiring that it be rebuilt exactly as it appeared before the fire. Stabilising the structure against possible collapse is expected to continue until the end of 2020, with reconstruction beginning in 2021. The government of France hopes the reconstruction can be completed by Spring 2024, in time for the opening of the 2024 Summer Olympics in Paris.</string>
+		<key>map</key>
+		<string>Map: https://www.google.com/maps/search/Cathedrale+Notre-Dame+de+Paris/@48.8502997,2.3439051,15z/data=!3m1!4b1</string>
+		<key>image</key>
+		<string>Cathedrale_Notre-Dame_de_Paris.jpeg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Musee d&apos;Orsay</string>
+		<key>city</key>
+		<string>Paris</string>
+		<key>short_description</key>
+		<string>This beautiful museum, once a railroad station, now houses a staggering collection of Impressionist art, as well as other items created between 1848 and 1914. In 2011, the museum is running a renovation of the top floor (impressionist gallery). Only ground and medium floor are accessible. The top floor will re-open on the 20th of October. Meanwhile, some impressionist masterpieces are not visible.</string>
+		<key>long_description</key>
+		<string>The Musée d&apos;Orsay is a museum in Paris, France, on the Left Bank of the Seine. It is housed in the former Gare d&apos;Orsay, a Beaux-Arts railway station built between 1898 and 1900. The museum holds mainly French art dating from 1848 to 1914, including paintings, sculptures, furniture, and photography. It houses the largest collection of impressionist and post-Impressionist masterpieces in the world, by painters including Monet, Manet, Degas, Renoir, Cézanne, Seurat, Sisley, Gauguin, and Van Gogh. Many of these works were held at the Galerie nationale du Jeu de Paume prior to the museum&apos;s opening in 1986. It is one of the largest art museums in Europe. Musée d&apos;Orsay had 3.177 million visitors in 2017.</string>
+		<key>map</key>
+		<string>https://www.google.com/maps/place/%D0%9C%D1%83%D0%B7%D0%B5%D0%B9+%D0%9E%D1%80%D1%81%D0%B5/@48.8599614,2.3243727,17z/data=!3m1!4b1!4m5!3m4!1s0x47e66e2bb630941b:0xd071bd8cb14423d8!8m2!3d48.8599614!4d2.3265614</string>
+		<key>image</key>
+		<string>Musee_d&apos;Orsay.jpeg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Luxembourg Gardens</string>
+		<key>city</key>
+		<string>Paris</string>
+		<key>short_description</key>
+		<string>These formal gardens, open to only royalty before the French Revolution, now serve as one of Paris&apos;s most popular destinations for relaxation.</string>
+		<key>long_description</key>
+		<string>The Jardin du Luxembourg, also known in English as the Luxembourg Gardens, is located in the 6th arrondissement of Paris, France. It was created beginning in 1612 by Marie de&apos; Medici, the widow of King Henry IV of France, for a new residence she constructed, the Luxembourg Palace. The garden today is owned by the French Senate, which meets in the Palace. It covers 23 hectares and is known for its lawns, tree-lined promenades, flowerbeds, model sailboats on its circular basin, and picturesque Medici Fountain, built in 1620. The name Luxembourg comes from the Latin Mons Lucotitius, the name of the hill where the garden is located.</string>
+		<key>map</key>
+		<string>https://www.google.com/maps/place/%D0%9B%D1%8E%D0%BA%D1%81%D0%B5%D0%BC%D0%B1%D1%83%D1%80%D0%B3%D1%81%D0%BA%D0%B8%D0%B9+%D1%81%D0%B0%D0%B4/@48.8462217,2.3349718,17z/data=!3m1!4b1!4m5!3m4!1s0x47e671db36de687b:0x791dd61b089f98b!8m2!3d48.8462217!4d2.337160</string>
+		<key>image</key>
+		<string>Luxembourg Gardens.jpeg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Basilique du Sacre-Coeur de Montmartre</string>
+		<key>city</key>
+		<string>Paris</string>
+		<key>short_description</key>
+		<string>This Montmartre landmark, a 19th-century basilica built by the French government following the Franco-Prussian War, features a large medieval dome that provides excellent views of the city.</string>
+		<key>long_description</key>
+		<string>The Basilica of the Sacred Heart of Paris, commonly known as Sacré-Cœur Basilica and often simply Sacré-Cœur , is a Roman Catholic church and minor basilica, dedicated to the Sacred Heart of Jesus, in Paris, France. A popular landmark and the second most visited monument in Paris, the basilica stands at the summit of the butte Montmartre, the highest point in the city. Sacré-Cœur Basilica is above all a religious (Catholic) building, shown by its perpetual adoration of the Holy Eucharist since 1885, and is also seen as a double monument, political and cultural, both a national penance for the defeat of France in the 1870 Franco-Prussian War and for the socialist Paris Commune of 1871 crowning its most rebellious neighborhood, and an embodiment of conservative moral order, publicly dedicated to the Sacred Heart of Jesus, which was an increasingly popular devotion since the visions of Saint Margaret Mary Alacoque in Paray-le-Monial. The basilica was designed by Paul Abadie. Construction began in 1875 and was completed in 1914. The basilica was consecrated after the end of World War I in 1919.</string>
+		<key>map</key>
+		<string>https://www.google.com/maps/place/%D0%91%D0%B0%D0%B7%D0%B8%D0%BB%D0%B8%D0%BA%D0%B0+%D0%A1%D0%B0%D0%BA%D1%80%D0%B5-%D0%9A%D1%91%D1%80/@48.8867046,2.3409156,17z/data=!3m1!4b1!4m5!3m4!1s0x47e66e4334868de3:0xcfc3870abe2b8519!8m2!3d48.8867046!4d2.3431043</string>
+		<key>image</key>
+		<string>Basilique_du_Sacre-Coeur_de_Montmartre.jpeg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Pantheon</string>
+		<key>city</key>
+		<string>Paris</string>
+		<key>short_description</key>
+		<string>With the Pantheon, architect Jacques-Germain Soufflot met Louis XV’s wish to glorify the monarchy in the form of a church dedicated to Saint Geneviève, the patron saint of Paris. The edifice was deconsecrated during the Revolution in 1791 and renamed the Pantheon. During the turbulent years of the 19th century, as regimes changed, it alternated in its role as a religious and patriotic monument. Since 1885, the year of Victor Hugo’s death and burial in the Pantheon, it has been the last resting place for the great writers, scientists, generals, churchmen and politicians who have made the history of France. The crypt houses the tombs of more than 70 illustrious figures including Voltaire, Jean-Jacques Rousseau, Emile Zola, Alexandre Dumas, Pierre and Marie Curie etc.</string>
+		<key>long_description</key>
+		<string>The Panthéon is a monument in the 5th arrondissement of Paris, France. It is located in the area known as the Latin Quarter, standing atop the Montagne Sainte-Geneviève, at the center of the Place du Panthéon which was named after it. The edifice was built from 1758 to 1790 over the designs of Jacques-Germain Soufflot at the behest of King Louis XV of France, who meant is as a church dedicated to Saint Genevieve, the city&apos;s patron saint, whose relics were to be housed there. Neither Soufflot nor Louis XV however lived to see the church completed. By the time the construction was finished, the French Revolution had started, and the National Constituent Assembly voted in 1791 to transform the Church of Saint Genevieve into a mausoleum for the remains of distinguished French citizens, modelled on the Pantheon in Rome which had been used in this way since the 16th century. The first panthéonisé was Honoré Gabriel Riqueti, comte de Mirabeau, although his remains were removed from the place a few years later. The building was twice restored to church usage in the course of the 19th century—although Soufflot&apos;s remains were transferred inside it in 1829—until the French Third Republic finally decreed its exclusive use as a mausoleum in 1881; the placement of Victor Hugo&apos;s remains in the crypt in 1885 was the first one in over fifty years. The successive changes in the building&apos;s purpose resulted in modifications of the pediment&apos;s decoration, the capping of the dome by a cross or a flag, and some of the originally existing windows were blocked up with masonry in order to give the interior a darker and more funereal atmosphere, which compromised somewhat Soufflot&apos;s initial attempt at combining the lightness and brightness of the Gothic cathedral with classical principles. The architecture of the Panthéon is an early example of Neoclassicism, surmounted by a dome that owes some of its character to Bramante&apos;s Tempietto. As of 2018 the remains of 78 people have been transferred to the Panthéon, including five women&apos;s. More than half of all the panthéonisations were made under Napoleon&apos;s rule during the First French Empire. In 1851, Léon Foucault conducted a demonstration of diurnal motion at the Panthéon by suspending a pendulum from the ceiling, a copy of which is still visible today.</string>
+		<key>map</key>
+		<string>https://www.google.com/maps/place/%D0%9F%D0%B0%D0%BD%D1%82%D0%B5%D0%BE%D0%BD/@48.8462218,2.3442251,17z/data=!3m1!4b1!4m5!3m4!1s0x47e671e7d297c973:0xe5eb004f23a758!8m2!3d48.8462218!4d2.3464138</string>
+		<key>image</key>
+		<string>Pantheon.jpeg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Observatoire Panoramique de la Tour Montparnasse</string>
+		<key>city</key>
+		<string>Paris</string>
+		<key>short_description</key>
+		<string>Tour Maine-Montparnasse, also commonly named Tour Montparnasse, is a 210-metre (689 ft) office skyscraper located in the Montparnasse area of Paris, France. Constructed from 1969 to 1973, it was the tallest skyscraper in France until 2011, when it was surpassed by the 231-metre (758 ft) Tour First. As of April 2019, it is the 19th tallest building in the European Union. The tower was designed by architects Eugène Beaudouin, Urbain Cassan, and Louis Hoym de Marien and built by Campenon Bernard. On September 21, 2017, Nouvelle AOM won a competition to redesign the building&apos;s facade.</string>
+		<key>long_description</key>
+		<string>Montparnasse Observation Deck offers a unique, spectacular panoramic view! This unique view point, which overlooks Paris from a height of 200 meters, offers a360° view of the capital, with a stunning 25 miles of visibility on clear days .Day and night, enjoy a spectacular, breathtaking view of the City of Lights. Ideally located in the Montparnasse neighbourhood, this unique, central view point in Paris allows you to see all of the city&apos;s most famous attractions and monuments: the Eiffel Tower, the Louvre museum, the Arc de Triomphe, the familiar streets and rooftops... Two viewing levels: The 56th covered floor : a modern and comfortable space, with displays that help visitors better understand its history and its dynamism : exhibition about historic Paris, interactives terminals and panorama. Also, one site food and beverage options and souvenirs shop, - The outdoor terrace at 210 meters high which was designed to maximise the astonishing view of Paris. During the summer you can enjoy the unforgettable view from the Champagne bar* while sipping bubbly.</string>
+		<key>map</key>
+		<string> https://www.google.com/maps/place/%D0%91%D0%B0%D1%88%D0%BD%D1%8F+%D0%9C%D0%BE%D0%BD%D0%BF%D0%B0%D1%80%D0%BD%D0%B0%D1%81/@48.8421379,2.3197627,17z/data=!3m1!4b1!4m5!3m4!1s0x47e671ccae002451:0xfc04ff9c1b1c593c!8m2!3d48.8421379!4d2.3219514</string>
+		<key>image</key>
+		<string>Observatoire_Panoramique_de_la_Tour_Montparnasse.jpeg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Petit Palais</string>
+		<key>city</key>
+		<string>Paris</string>
+		<key>short_description</key>
+		<string>Built for the 1900 Universal Exhibition and completely renovated in 2005, the Petit Palais offers an artistic panorama from antiquity through the 20th century: ancient and medieval collections, precious art objects from the French and Italian Renaissance, Flemish and Dutch paintings (Dutuit bequest), icons (Cabal bequest), 18th century work (Tuck donation), French paintings and sculptures from the 19th century - Courbet, Carpeaux, Cezanne, Vuillard - and Art Nouveau creations.</string>
+		<key>long_description</key>
+		<string>The Petit Palais (small palace) is an art museum in the 8th arrondissement of Paris, France. Built for the 1900 Exposition Universelle (&quot;universal exhibition&quot;), it now houses the City of Paris Museum of Fine Arts (Musée des beaux-arts de la ville de Paris). The Petit Palais is located across from the Grand Palais on Avenue Nicolas II, today Avenue Winston-Churchill. The other façades of the building face the Seine and Avenue des Champs-Elysees. The Petit Palais is one of 14 museums of the City of Paris that have been incorporated since January 1, 2013, in the public corporation Paris Musées. It has been listed since 1975 as a monument historique by the French Ministry of Culture.</string>
+		<key>map</key>
+		<string>https://www.google.com/maps/search/Petit+Palais/@48.8660229,2.3123997,17z/data=!3m1!4b1</string>
+		<key>image</key>
+		<string>Petit_Palais.jpeg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Galleria Borghese</string>
+		<key>city</key>
+		<string>Rome</string>
+		<key>short_description</key>
+		<string>The Museum in the beautiful setting of Villa Borghese in Rome preserves sculptures, reliefs and ancient mosaics, and paintings and sculptures from the fifteenth to the eighteenth century. The collection, made up initially by Cardinal Scipione Borghese in the early seventeenth century, preserves masterpieces of Antonello da Messina, Giovanni Bellini, Raffaello, Tiziano, Correggio, Caravaggio and beautiful sculptures of Gian Lorenzo Bernini and Canova.</string>
+		<key>long_description</key>
+		<string>The Galleria Borghese is an art gallery in Rome, Italy, housed in the former Villa Borghese Pinciana. At the outset, the gallery building was integrated with its gardens, but nowadays the Villa Borghese gardens are considered a separate tourist attraction. The Galleria Borghese houses a substantial part of the Borghese collection of paintings, sculpture and antiquities, begun by Cardinal Scipione Borghese, the nephew of Pope Paul V (reign 1605–1621). The Villa was built by the architect Flaminio Ponzio, developing sketches by Scipione Borghese himself, who used it as a villa suburbana, a country villa at the edge of Rome.Scipione Borghese was an early patron of Bernini and an avid collector of works by Caravaggio, who is well represented in the collection by his Boy with a Basket of Fruit, St Jerome Writing, Sick Bacchus and others. Other paintings of note include Titian&apos;s Sacred and Profane Love, Raphael&apos;s Entombment of Christ and works by Peter Paul Rubens and Federico Barocci.</string>
+		<key>map</key>
+		<string>https://www.google.com/maps/place/%D0%93%D0%B0%D0%BB%D0%B5%D1%80%D0%B5%D1%8F+%D0%91%D0%BE%D1%80%D0%B3%D0%B5%D0%B7%D0%B5/@41.9142103,12.4899555,17z/data=!3m1!4b1!4m5!3m4!1s0x132f610456d7e6ab:0x1bb4a47639e07bbf!8m2!3d41.9142103!4d12.4921442</string>
+		<key>image</key>
+		<string>Galleria_Borghese.jpeg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Museo Nazionale di Castel Sant&apos;Angelo</string>
+		<key>city</key>
+		<string>Rome</string>
+		<key>short_description</key>
+		<string>The Mausoleum of Hadrian, usually known as Castel Sant&apos;Angelo, is a towering cylindrical building in Parco Adriano, Rome, Italy. It was initially commissioned by the Roman Emperor Hadrian as a mausoleum for himself and his family. The building was later used by the popes as a fortress and castle, and is now a museum. The structure was once the tallest building in Rome.</string>
+		<key>long_description</key>
+		<string>The Museum is divided into four sections, the history of Castel Sant&apos;Angelo is illustrated by vintage prints, scenic views and interesting reconstructions ideals of the monument, as suggested by the imagination of artists and architects of the Renaissance, from its construction until the nineteenth century, in a path that highlights the intense and ongoing.</string>
+		<key>map</key>
+		<string> https://www.google.com/maps/search/Museo+Nazionale+di+Castel+Sant&apos;Angelo/@41.9030609,12.4641027,17z/data=!3m1!4b1</string>
+		<key>image</key>
+		<string>Museo_Nazionale_di_Castel_Sant&apos;Angelo.jpeg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Sistine Chapel</string>
+		<key>city</key>
+		<string>Rome</string>
+		<key>short_description</key>
+		<string>Probably the most famous chapel in the world because of its incredible artwork, notably &quot;The Last Judgment,&quot; Michelangelo&apos;s stunning fresco covering 10,000 square feet of the ceiling and wall</string>
+		<key>long_description</key>
+		<string>The Sistine Chapel is a chapel in the Apostolic Palace, the official residence of the pope, in Vatican City. Originally known as the Cappella Magna (&apos;Great Chapel&apos;), the chapel takes its name from Pope Sixtus IV, who restored it between 1473 and 1481. Since that time, the chapel has served as a place of both religious and functionary papal activity. Today, it is the site of the papal conclave, the process by which a new pope is selected. The fame of the Sistine Chapel lies mainly in the frescos that decorate the interior, most particularly the Sistine Chapel ceiling and The Last Judgment by Michelangelo. During the reign of Sixtus IV, a team of Renaissance painters that included Sandro Botticelli, Pietro Perugino, Pinturicchio, Domenico Ghirlandaio and Cosimo Rosselli, created a series of frescos depicting the Life of Moses and the Life of Christ, offset by papal portraits above and trompe-l&apos;œil drapery below. These paintings were completed in 1482, and on 15 August 1483 Sixtus IV celebrated the first mass in the Sistine Chapel for the Feast of the Assumption, at which ceremony the chapel was consecrated and dedicated to the Virgin Mary. Between 1508 and 1512, under the patronage of Pope Julius II, Michelangelo painted the chapel&apos;s ceiling, a project which changed the course of Western art and is regarded as one of the major artistic accomplishments of human civilization. In a different climate, after the Sack of Rome, he returned and, between 1535 and 1541, painted The Last Judgment for Popes Clement VII and Paul III. The fame of Michelangelo&apos;s paintings has drawn multitudes of visitors to the chapel ever since they were revealed five hundred years ago.</string>
+		<key>map</key>
+		<string>https://www.google.com/maps/place/Sistine+Chapel/@41.9029468,12.4522948,17z/data=!3m1!4b1!4m5!3m4!1s0x132f6065c523afdb:0xab16c8877fb53e22!8m2!3d41.9029468!4d12.4544835
+</string>
+		<key>image</key>
+		<string>Sistine_Chapel.jpeg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Vatican Museums</string>
+		<key>city</key>
+		<string>Rome</string>
+		<key>short_description</key>
+		<string> With more than five miles of corridors, this vast complex of museums chronicles the history and accomplishments of mankind over the last 2000 years, featuring classic masterpieces such as Rodin&apos;s &quot;Thinker&quot; and the Sistine Chapel.</string>
+		<key>long_description</key>
+		<string>The Vatican Museums are the public art and sculpture museums in the Vatican City. They display works from the immense collection amassed by popes throughout the centuries including several of the most renowned Roman sculptures and most important masterpieces of Renaissance art in the world. The museums contain roughly 70,000 works, of which 20,000 are on display, and currently employ 640 people who work in 40 different administrative, scholarly, and restoration departments. Pope Julius II founded the museums in the early 16th century. The Sistine Chapel with its ceiling decorated by Michelangelo and the Stanze di Raffaello decorated by Raphael are on the visitor route through the Vatican Museums. In 2017, they were visited by six million people, which combined makes them the 4th most visited art museum in the world. They are one of the largest museums in the world.There are 54 galleries, or sale, in total, with the Sistine Chapel, notably, being the very last sala within the Museum.</string>
+		<key>map</key>
+		<string>https://www.google.com/maps/place/%D0%9C%D1%83%D0%B7%D0%B5%D0%B9+%D0%92%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%D0%BD%D0%B0/@41.9064878,12.4514526,17z/data=!3m1!4b1!4m5!3m4!1s0x132f6063839bc129:0xcfe0eca0526416b6!8m2!3d41.9064878!4d12.4536413
+</string>
+		<key>image</key>
+		<string>Vatican_Museums.jpeg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Villa Medici - Accademia di Francia a Roma</string>
+		<key>city</key>
+		<string>Rome</string>
+		<key>short_description</key>
+		<string>The Villa Medici : is a Mannerist villa and an architectural complex with a garden contiguous with the larger Borghese gardens, on the Pincian Hill next to Trinità dei Monti in Rome, Italy. The Villa Medici, founded by Ferdinando I de&apos; Medici, Grand Duke of Tuscany and now property of the French State, has housed the French Academy in Rome since 1803. A musical evocation of its garden fountains features in Ottorino Respighi&apos;s Fontane di Roma.</string>
+		<key>long_description</key>
+		<string>The creation of the French Academy in Rome was part of the policy of great work of King Louis XlV at the end of the 17th century. Those works transformed the Louvre, the Tuileries, and Versailles. The Academy was created in 1666 under the leadership of Colbert, Le Brun and Gian Lorenzo Bernini. It welcomed artists who won the First Prize of Rome and several protégés of powerful lords. Young artists pensioned by the king got broadened training, being in touch with Rome and Italy. At the time pensioners followed a regime of strict discipline and devoted their stay to the realisation of copies of Antique or Renaissance art. In 1720 architects joined the sculptors and painters as pensioners. Before being transferred to the Villa Medici the Academy headed in different buildings. It started in the modest house near Sant’Onofrio on the side of the Janiculum, before moving to the Caffarelli palace in 1683 and to the Capranica palace in 1684. Then the Academy was moved to the Mancini palace in 1725. At the time the Academy welcomed the painters Boucher, Subleyras, Fragonard, David as well as sculptors like Houdon.During the Revolution the function of director was abolished. The Mancini palace had been plundered and devastated by Roman counter-revolutionaries in February 1793. Some pensioners fled to Naples or Florence. After those events the Academy was removed. It was reinstated in 1795 by the Directory, but it needed a new place to be welcomed. On May 18, 1803 France and the Court of Etrury decided to trade the Mancini palace for the Villa Medici.</string>
+		<key>map</key>
+		<string>https://www.google.com/maps/place/%D0%A4%D1%80%D0%B0%D0%BD%D1%86%D1%83%D0%B7%D1%81%D0%BA%D0%B0%D1%8F+%D0%B0%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D1%8F+%D0%B2+%D0%A0%D0%B8%D0%BC%D0%B5/@41.9082556,12.4802863,17z/data=!3m1!4b1!4m5!3m4!1s0x132f60f931e56929:0x879ab366ecec643!8m2!3d41.9082556!4d12.482475</string>
+		<key>image</key>
+		<string>Villa_Medici-Accademia_di_Francia_a_Roma.jpeg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>St. Peter&apos;s Basilica</string>
+		<key>city</key>
+		<string>Rome</string>
+		<key>short_description</key>
+		<string>Arguably one of the finest Cathedrals in the entire world, St. Peter&apos;s is the spiritual center of the Vatican and the product of many of Italy&apos;s great Renaissance&apos;s architects, among them Bramante, Raphael and Michelangelo.</string>
+		<key>long_description</key>
+		<string>The Papal Basilica of Saint Peter in the Vatican (Italian: Basilica Papale di San Pietro in Vaticano), or simply Saint Peter&apos;s Basilica (Latin: Basilica Sancti Petri), is a church built in the Renaissance style located in Vatican City, the papal enclave which is within the city of Rome.Designed principally by Donato Bramante, Michelangelo, Carlo Maderno and Gian Lorenzo Bernini, St. Peter&apos;s is the most renowned work of Renaissance architecture and the largest church in the world. While it is neither the mother church of the Catholic Church nor the cathedral of the Diocese of Rome (these equivalent titles being held by the Archbasilica of Saint John Lateran in Rome), St. Peter&apos;s is regarded as one of the holiest Catholic shrines. It has been described as &quot;holding a unique position in the Christian world&quot; and as &quot;the greatest of all churches of Christendom&quot;.Catholic tradition holds that the basilica is the burial site of Saint Peter, chief among Jesus&apos;s apostles and also the first Bishop of Rome (Pope). Saint Peter&apos;s tomb is supposedly directly below the high altar of the basilica. For this reason, many popes have been interred at St. Peter&apos;s since the Early Christian period. A church has stood on this site since the time of the Roman emperor Constantine the Great. Old St. Peter&apos;s Basilica dates from the 4th century AD. Construction of the present basilica began on 18 April 1506 and was completed on 18 November 1626.St. Peter&apos;s is famous as a place of pilgrimage and for its liturgical functions. The pope presides at a number of liturgies throughout the year both within the basilica or the adjoining St. Peter&apos;s Square; these liturgies draw audiences numbering from 15,000 to over 80,000 people. St. Peter&apos;s has many historical associations, with the Early Christian Church, the Papacy, the Protestant Reformation and Catholic Counter-reformation and numerous artists, especially Michelangelo. As a work of architecture, it is regarded as the greatest building of its age. St. Peter&apos;s is one of the four churches in the world that hold the rank of major basilica, all four of which are in Rome. Contrary to popular misconception, it is not a cathedral because it is not the seat of a bishop; the cathedra of the pope as Bishop of Rome is at Saint John Lateran.</string>
+		<key>map</key>
+		<string>https://www.google.com/maps/place/%D0%91%D0%B0%D0%B7%D0%B8%D0%BB%D0%B8%D0%BA%D0%B0+%D0%A1%D0%B2%D1%8F%D1%82%D0%BE%D0%B3%D0%BE+%D0%9F%D0%B5%D1%82%D1%80%D0%B0/@41.9021667,12.451748,17z/data=!3m1!4b1!4m5!3m4!1s0x132f6061b7149b59:0x724bf077cd875283!8m2!3d41.9021667!4d12.4539367</string>
+		<key>image</key>
+		<string>St._Peter&apos;s_Basilica.jpeg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Colosseum</string>
+		<key>city</key>
+		<string>Rome</string>
+		<key>short_description</key>
+		<string>Perhaps the best-preserved of the monuments of ancient Rome, this huge marble structure was built to hold more than 50,000 spectators to witness bloody contests of might and the slaughter of wild beasts.</string>
+		<key>long_description</key>
+		<string>The Colosseum or Coliseum, also known as the Flavian Amphitheatre, is an oval amphitheatre in the centre of the city of Rome, Italy. Built of travertine limestone, tuff (volcanic rock), and brick-faced concrete, it was the largest amphitheatre ever built at the time and held 50,000 to 80,000 spectators. The Colosseum is situated just east of the Roman Forum. Construction began under the emperor Vespasian in AD 72 and was completed in AD 80 under his successor and heir, Titus. Further modifications were made during the reign of Domitian (81–96). These three emperors are known as the Flavian dynasty, and the amphitheatre was named in Latin for its association with their family name (Flavius).The Colosseum could hold an estimated 50,000 to 80,000 spectators at various points of its history over the centuries, having an average audience of some 65,000; it was used for gladiatorial contests and public spectacles such as mock sea battles (for only a short time as the hypogeum was soon filled in with mechanisms to support the other activities), animal hunts, executions, re-enactments of famous battles, and dramas based on Classical mythology. The building ceased to be used for entertainment in the early medieval era. It was later reused for such purposes as housing, workshops, quarters for a religious order, a fortress, a quarry, and a Christian shrine.Although substantially ruined because of earthquakes and stone-robbers, the Colosseum is still an iconic symbol of Imperial Rome and is listed as one of the New7Wonders of the World.</string>
+		<key>map</key>
+		<string>https://www.google.com/maps/place/%D0%9A%D0%BE%D0%BB%D0%B8%D0%B7%D0%B5%D0%B9/@41.8902102,12.4900422,17z/data=!3m1!4b1!4m5!3m4!1s0x132f61b6532013ad:0x28f1c82e908503c4!8m2!3d41.8902102!4d12.4922309</string>
+		<key>image</key>
+		<string>Colosseum.jpeg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Pantheon</string>
+		<key>city</key>
+		<string>Rome</string>
+		<key>short_description</key>
+		<string>Dedicated to the seven planetary divinities and featuring an interior of gorgeous marble, the Pantheon is one of the most impressive monuments of Augustan Rome.</string>
+		<key>long_description</key>
+		<string>The Pantheon is a former Roman temple, now a Catholic church (Basilica di Santa Maria ad Martyres or Basilica of St. Mary and the Martyrs), in Rome, Italy, on the site of an earlier temple commissioned by Marcus Agrippa during the reign of Augustus (27 BC – 14 AD). It was completed by the emperor Hadrian and probably dedicated about 126 AD. Its date of construction is uncertain, because Hadrian chose not to inscribe the new temple but rather to retain the inscription of Agrippa&apos;s older temple, which had burned down. The building is cylindrical with a portico of large granite Corinthian columns (eight in the first rank and two groups of four behind) under a pediment. A rectangular vestibule links the porch to the rotunda, which is under a coffered concrete dome, with a central opening (oculus) to the sky. Almost two thousand years after it was built, the Pantheon&apos;s dome is still the world&apos;s largest unreinforced concrete dome. The height to the oculus and the diameter of the interior circle are the same, 43 metres (142 ft). It is one of the best-preserved of all Ancient Roman buildings, in large part because it has been in continuous use throughout its history and, since the 7th century, the Pantheon has been in use as a church dedicated to &quot;St. Mary and the Martyrs&quot; (Latin: Sancta Maria ad Martyres) but informally known as &quot;Santa Maria Rotonda&quot;. The square in front of the Pantheon is called Piazza della Rotonda. The Pantheon is a state property, managed by Italy&apos;s Ministry of Cultural Heritage and Activities and Tourism through the Polo Museale del Lazio; in 2013 it was visited by over 6 million people.The Pantheon&apos;s large circular domed cella, with a conventional temple portico front, was unique in Roman architecture. Nevertheless, it became a standard exemplar when classical styles were revived, and has been copied many times by later architects.</string>
+		<key>map</key>
+		<string>https://www.google.com/maps?q=Pantheon&amp;um=1&amp;ie=UTF-8&amp;sa=X&amp;ved=2ahUKEwjxxcHypfznAhVwwMQBHd7yBBEQ_AUoAXoECCIQAw</string>
+		<key>image</key>
+		<string>Pantheon.jpeg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Musei Capitolini</string>
+		<key>city</key>
+		<string>Rome</string>
+		<key>short_description</key>
+		<string>The creation of the Capitoline Museums has been traced back to 1471, when Pope Sixtus IV donated a group of bronze statues of great symbolic value to the People of Rome. The collections are closely linked to the city of Rome, and most of the exhibits come from the city itself.</string>
+		<key>long_description</key>
+		<string>The Capitoline Museums is a single museum containing a group of art and archaeological museums in Piazza del Campidoglio, on top of the Capitoline Hill in Rome, Italy. The historic seats of the museums are Palazzo dei Conservatori and Palazzo Nuovo, facing on the central trapezoidal piazza in a plan conceived by Michelangelo in 1536 and executed over a period of more than 400 years. The history of the museum can be traced to 1471, when Pope Sixtus IV donated a collection of important ancient bronzes to the people of Rome and located them on the Capitoline Hill. Since then, the museums&apos; collection has grown to include many ancient Roman statues, inscriptions, and other artifacts; a collection of medieval and Renaissance art; and collections of jewels, coins, and other items. The museums are owned and operated by the municipality of Rome.The statue of a mounted rider in the centre of the piazza is of Emperor Marcus Aurelius. It is a copy, the original being housed on-site in the Capitoline museum.Opened to the public in 1734 under Clement XII, the Capitoline Museums are considered the first museum in the world, understood as a place where art could be enjoyed by all and not only by the owners.</string>
+		<key>map</key>
+		<string>https://www.google.com/maps?q=Musei+Capitolini&amp;um=1&amp;ie=UTF-8&amp;sa=X&amp;ved=2ahUKEwjRgNyvpvznAhXCwsQBHZu5BJYQ_AUoAnoECAkQBA</string>
+		<key>image</key>
+		<string>Musei_Capitolini.jpeg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Basilica of San Clemente</string>
+		<key>city</key>
+		<string>Rome</string>
+		<key>short_description</key>
+		<string>Constructed between 1110 and 1130, this church of San Clemente is not one, but three churches built one above the other, with ruins dating from the earliest Christian times.</string>
+		<key>long_description</key>
+		<string>The Basilica of Saint Clement is a Roman Catholic minor basilica dedicated to Pope Clement I located in Rome, Italy. Archaeologically speaking, the structure is a three-tiered complex of buildings: the present basilica built just before the year 1100 during the height of the Middle Ages; beneath the present basilica is a 4th-century basilica that had been converted out of the home of a Roman nobleman, part of which had in the 1st century briefly served as an early church, and the basement of which had in the 2nd century briefly served as a mithraeum; the home of the Roman nobleman had been built on the foundations of republican era villa and warehouse that had been destroyed in the Great Fire of 64 AD.</string>
+		<key>map</key>
+		<string> https://www.google.com/maps/place/%D0%91%D0%B0%D0%B7%D0%B8%D0%BB%D0%B8%D0%BA%D0%B0+%D0%A1%D0%B2%D1%8F%D1%82%D0%BE%D0%B3%D0%BE+%D0%9A%D0%BB%D0%B8%D0%BC%D0%B5%D0%BD%D1%82%D0%B0/@41.8893347,12.495387,17z/data=!3m1!4b1!4m5!3m4!1s0x132f61b84d7e5de9:0x97e138e66d21b151!8m2!3d41.8893347!4d12.4975757</string>
+		<key>image</key>
+		<string>Basilica_of_San_Clemente.jpeg</string>
+	</dict>
+</array>
+</plist>
