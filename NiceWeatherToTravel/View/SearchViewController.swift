@@ -13,9 +13,10 @@ class SearchViewController: UIViewController {
     @IBOutlet weak var searchBar: UISearchBar!
     @IBOutlet weak var SearchresultTableView: UITableView!
        
-    
+    //remove this after connect boxing
+    private let provider = CityProvider()
     var viewModel: SearchViewModel? = SearchViewModel()
-    var cities = [String]()
+    var cities = [ParsedCity]()
     var searchCities = [String]()
     var searching = false
     
@@ -28,12 +29,7 @@ class SearchViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        /*
-        viewModel?.searchedString.bind{ [unowned self] in
-            guard let searchedString = $0 else {return}
-            
-        }*/
-        cities = viewModel?.sityNames ?? []
+
         
         searchBar.delegate = self
         searchBar.searchTextField.textColor = UIColor.gray
@@ -59,7 +55,11 @@ class SearchViewController: UIViewController {
 
 extension SearchViewController: UISearchBarDelegate{
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-        searchCities = cities.filter({$0.lowercased().prefix(searchText.count) == searchText.lowercased()})
+        if let cityPrefix = searchBar.text{
+            if let request = provider.GetSearchedCities(sityName: cityPrefix){
+                cities = request
+            }
+        }
         searching = true
         SearchresultTableView.reloadData()
     }
@@ -97,7 +97,7 @@ extension SearchViewController: UITableViewDataSource, UITableViewDelegate{
         if searching{
             cell?.textLabel?.text = searchCities[indexPath.row]
         }else{
-            cell?.textLabel?.text = cities[indexPath.row]
+            cell?.textLabel?.text = cities[indexPath.row].name
         }
         
         return cell!

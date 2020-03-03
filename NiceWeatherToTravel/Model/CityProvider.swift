@@ -12,9 +12,9 @@ import ObjectMapper
 
 class CityProvider{
     let BASEURL = "http://geodb-free-service.wirefreethought.com/v1/geo/cities?limit=5&offset=0&namePrefix="
-    var cities: RequestedCities?
+    var cities: [ParsedCity]?
 
-    func GetSearchedCities(sityName: String) -> RequestedCities?{
+    func GetSearchedCities(sityName: String) -> [ParsedCity]?{
 
         let urlString = "\(BASEURL)\(sityName)"
 
@@ -24,14 +24,9 @@ class CityProvider{
             headers: nil).responseJSON {
                 response in
             let mappedCities = Mapper<RequestedCities>().map(JSONObject:response.value)
-                self.cities = mappedCities
+                self.cities = mappedCities?.requestedCities
         }
 
            return cities ?? nil
         }
-            
-
-
-    
-
 }
