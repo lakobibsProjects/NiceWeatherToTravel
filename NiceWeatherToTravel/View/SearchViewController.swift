@@ -12,7 +12,8 @@ class SearchViewController: UIViewController {
 
     @IBOutlet weak var searchBar: UISearchBar!
     @IBOutlet weak var SearchresultTableView: UITableView!
-       
+    @IBOutlet weak var navigator: UINavigationItem!
+    
     //remove this after connect boxing
     private let provider = CityProvider()
     var viewModel: SearchViewModel? = SearchViewModel()
@@ -46,8 +47,13 @@ class SearchViewController: UIViewController {
     // MARK: - Navigation
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        if segue.identifier == "showWeather"{
+            if let indexPath = self.SearchresultTableView.indexPathForSelectedRow{
+                let detailVC = segue.destination as! WeatherViewController
+                detailVC.city = cities[indexPath.row]
+            }
+            
+        }
     }
     
 
@@ -77,28 +83,21 @@ extension SearchViewController: UISearchBarDelegate{
         searchBar.searchTextField.textColor = UIColor.white
         searchBar.showsCancelButton = true
     }
-    
+    override func didChangeValue(forKey key: String) {
+        SearchresultTableView.reloadData()
+    }
     
 }
 
 extension SearchViewController: UITableViewDataSource, UITableViewDelegate{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        if searching{
-            return searchCities.count
-        }else{
-            return cities.count
-        }
-        
+        return cities.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "searchCell")
         cell?.textLabel?.textColor = UIColor.white
-        if searching{
-            cell?.textLabel?.text = searchCities[indexPath.row]
-        }else{
-            cell?.textLabel?.text = cities[indexPath.row].name
-        }
+        cell?.textLabel?.text = cities[indexPath.row].name
         
         return cell!
     }

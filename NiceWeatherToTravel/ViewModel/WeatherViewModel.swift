@@ -13,18 +13,19 @@ class WeatherViewModel{
     private var forecast: WeatherForecast?
     var todayWeather: [OneTimeSpanWeather] = []
     var tomorrowWeather: [OneTimeSpanWeather] = []
+    var today: Date
+    var tomorrow: Date
     
     //TODO: too mach force execution
     //TODO: have not correction to timezone
-    init(sityName: String){
-        let provider = WeatherProvider (sityName: sityName)
-            forecast = provider.weatherForecast ?? nil
-        guard let fiveDayForecast = forecast?.fiveDayForecast else{return}
-        
-        let today = Date()
+    init(){
+        today = Date()
         var tomorrowDateComponents = DateComponents()
         tomorrowDateComponents.day = +1
-        let tomorrow = Calendar.current.date(byAdding: tomorrowDateComponents, to: today)
+        tomorrow = Calendar.current.date(byAdding: tomorrowDateComponents, to: today)!
+        let provider = WeatherProvider ()
+            forecast = provider.weatherForecast ?? nil
+        guard let fiveDayForecast = forecast?.fiveDayForecast else{return}
         var aftertomorrowDateComponents = DateComponents()
         aftertomorrowDateComponents.day = +2
         let aftertomorrow = Calendar.current.date(byAdding: aftertomorrowDateComponents, to: today)
@@ -39,7 +40,7 @@ class WeatherViewModel{
             let finalDate = calendar.date(from:components)
             if finalDate! >= aftertomorrow!{
                 return
-            }else if finalDate! < tomorrow! {
+            }else if finalDate! < tomorrow {
                 todayWeather.append(OneTimeSpanWeather(forecast: wts))
             }else if finalDate! < aftertomorrow!{
                 tomorrowWeather.append(OneTimeSpanWeather(forecast: wts))

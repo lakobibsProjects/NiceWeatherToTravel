@@ -19,9 +19,23 @@ class WeatherProvider{
     var weatherForecast: WeatherForecast?
 
     func GetWeatherBySityName(sityName: String) -> WeatherForecast?{
-
         let urlString = "\(BASEURL)\(sityName),\(local),\(APIKEY)"
+        
+        getRequest(urlString: urlString)
+        
+        return weatherForecast ?? nil
+    }
+    
+    func GetWeatherByCoordinates(lon: Double, lat: Double) -> WeatherForecast?{
 
+        let urlString = "https://api.openweathermap.org/data/2.5/weather?lat=\(lat)&lon=\(lon)&appid=\(APIKEY)"
+
+        getRequest(urlString: urlString)
+
+        return weatherForecast ?? nil
+    }
+
+    private func getRequest(urlString: String){
         AF.request(
             urlString,
             method: .get,
@@ -30,14 +44,9 @@ class WeatherProvider{
             let Forecast = Mapper<WeatherForecast>().map(JSONObject:response.value)
                 self.weatherForecast = Forecast
         }
-
-           return weatherForecast ?? nil
-        }
-            
-
+    }
     
-    
-    init(sityName: String) {
+    init() {
 
     }
     

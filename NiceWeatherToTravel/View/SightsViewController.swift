@@ -13,7 +13,7 @@ class SightsViewController: UITableViewController {
     
     
     
-    var context: NSManagedObjectContext!
+    var context: NSManagedObjectContext! = (UIApplication.shared.delegate as? AppDelegate)?.coreDataStack.persistentContainer.viewContext
     
     private var sights:[Sight] = []
     var sightsToShow:[Sight] = []
@@ -66,7 +66,7 @@ class SightsViewController: UITableViewController {
             print(error.localizedDescription)
         }
         
-        guard records == 0 else { return }
+        //guard records == 0 else { return }
         
         guard let pathToFile = Bundle.main.path(forResource: "Sights", ofType: "plist"),
             let dataArray = NSArray(contentsOfFile: pathToFile) else { return }
