@@ -10,11 +10,6 @@ import Foundation
 import Alamofire
 import ObjectMapper
 
-class CityList{
-
-        
-}
-
 class ParsedCity: Mappable{
     var id: Int?
     var name: String?

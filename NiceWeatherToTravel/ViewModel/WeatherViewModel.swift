@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 class WeatherViewModel{
     //private var provider: WeatherProvider
@@ -23,9 +24,11 @@ class WeatherViewModel{
         var tomorrowDateComponents = DateComponents()
         tomorrowDateComponents.day = +1
         tomorrow = Calendar.current.date(byAdding: tomorrowDateComponents, to: today)!
+
         let provider = WeatherProvider ()
             forecast = provider.weatherForecast ?? nil
         guard let fiveDayForecast = forecast?.fiveDayForecast else{return}
+        
         var aftertomorrowDateComponents = DateComponents()
         aftertomorrowDateComponents.day = +2
         let aftertomorrow = Calendar.current.date(byAdding: aftertomorrowDateComponents, to: today)
@@ -55,11 +58,43 @@ class OneTimeSpanWeather{
     var date: String?
     var temperature: Double?
     var skyWeather: String?
+    var weatherImage: UIImage?
     
     init(forecast: OneTimespanForecast){
-        self.date = forecast.date
-        self.temperature = forecast.generalInfo?.temperature
-        self.skyWeather = forecast.shortWeather?.name
+        if let date = forecast.date{
+            self.date = String(String(date.suffix(8)).prefix(5))
+        }
+        self.temperature = KelvinToCelsiusConverter (forecast.temp)
+        let id =  forecast.weatherId
+        if (id > 800){
+            self.skyWeather = "Clouds"
+            weatherImage = UIImage(contentsOfFile: "Few_Clouds")
+        } else if (id == 800){
+            self.skyWeather = "Clear sky"
+            weatherImage = UIImage(contentsOfFile: "Clear_Sky")
+        } else if (id > 700){
+            self.skyWeather = "Mist"
+            weatherImage = UIImage(contentsOfFile: "Mist")
+        } else if (id > 600){
+            self.skyWeather = "Snow"
+            weatherImage = UIImage(contentsOfFile: "Snow")
+        } else if (id > 500){
+            self.skyWeather = "Rain"
+            weatherImage = UIImage(contentsOfFile: "Rain")
+        }  else if (id > 300){
+            self.skyWeather = "Drizzle"
+            weatherImage = UIImage(contentsOfFile: "Shower_Rain")
+        } else if (id > 200){
+            self.skyWeather = "Thunderstorm"
+            weatherImage = UIImage(contentsOfFile: "Thunderstorm")
+        }
+        
+        //self.skyWeather = forecast.shortWeather?.name
+    }
+    
+    private func KelvinToCelsiusConverter(_ kelvinTemperature: Double?) -> Double{
+        guard let temp = kelvinTemperature else {return 0}
+        return  temp - 271.15
     }
 }
 

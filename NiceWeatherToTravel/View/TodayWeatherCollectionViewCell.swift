@@ -9,5 +9,18 @@
 import UIKit
 
 class TodayWeatherCollectionViewCell: UICollectionViewCell {
+    @IBOutlet var weatherImage : UIImageView?
+    @IBOutlet var weatherLable: UILabel?
+    @IBOutlet var timeLable: UILabel?
+    @IBOutlet var temperatureLable: UILabel?
     
+    var weather: OneTimeSpanWeather?{
+        didSet{
+            guard let weather = weather else {return}
+            weatherLable?.text = weather.skyWeather
+            timeLable?.text =  weather.date!
+            temperatureLable?.text = "\(String(describing: weather.temperature))ºC"
+            weatherImage?.image = weather.weatherImage            
+        }
+    }
 }

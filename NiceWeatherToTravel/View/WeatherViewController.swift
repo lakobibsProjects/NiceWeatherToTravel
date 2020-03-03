@@ -18,8 +18,8 @@ class WeatherViewController: UIViewController {
     var todayForecast: [OneTimeSpanWeather]?
     var tomorrowForecast: [OneTimeSpanWeather]?
     var location: CLLocation?
-    let collectionViewToday = UICollectionView()
-    let collectionViewTomorrow = UICollectionView()
+    let collectionViewToday = UICollectionView(frame: CGRect.zero, collectionViewLayout: UICollectionViewFlowLayout.init())
+    let collectionViewTomorrow = UICollectionView(frame: CGRect.zero, collectionViewLayout: UICollectionViewFlowLayout.init())
     let collectionViewTodayIdentifier = "CollectionViewTodayCell"
     let collectionViewTomorrowIdentifier = "CollectionViewTomorrowCell"
     
@@ -32,12 +32,28 @@ class WeatherViewController: UIViewController {
     @IBOutlet weak var tomorrowCollectionView: UICollectionView!
     
     
+    
+    let layout:UICollectionViewFlowLayout = UICollectionViewFlowLayout.init()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         vm = WeatherViewModel()
         
         todayCollectionView.dataSource = self
         todayCollectionView.delegate = self
+        
+        
+        layout.scrollDirection = UICollectionView.ScrollDirection.horizontal
+        collectionViewToday.setCollectionViewLayout(layout, animated: true)
+        collectionViewToday.delegate = self
+        collectionViewToday.dataSource = self
+        collectionViewToday.backgroundColor = UIColor.clear
+        
+        layout.scrollDirection = UICollectionView.ScrollDirection.horizontal
+        collectionViewTomorrow.setCollectionViewLayout(layout, animated: true)
+        collectionViewTomorrow.delegate = self
+        collectionViewTomorrow.dataSource = self
+        collectionViewTomorrow.backgroundColor = UIColor.clear
         
         tomorrowCollectionView.dataSource = self
         tomorrowCollectionView.delegate = self
@@ -46,8 +62,13 @@ class WeatherViewController: UIViewController {
         self.view.addSubview(collectionViewTomorrow)
         
         if let vm = vm  {
-            todayLabel.text = ("\(vm.today)")
-            tomorrowLabel.text  = ("\(vm.today)")
+            let df = DateFormatter()
+            df.dateFormat = "dd MMM yyyy"
+            let today = df.string(from: vm.today)
+            let tomorrow = df.string(from: vm.tomorrow)
+
+            todayLabel.text = ("Today is \(today)")
+            tomorrowLabel.text  = ("Tomorrow will be \(tomorrow)")
             todayForecast = vm.todayWeather
             tomorrowForecast = vm.tomorrowWeather
             
@@ -112,9 +133,7 @@ class WeatherViewController: UIViewController {
                 sightsVC.sityName = "London"
             default:
                 return
-            }
-
-            
+            }            
         }
     }
     
@@ -133,16 +152,20 @@ extension WeatherViewController: UICollectionViewDelegate, UICollectionViewDataS
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
          if collectionView == self.todayCollectionView {
-            let cellToday: TodayWeatherCollectionViewCell = collectionView.dequeueReusableCell(withReuseIdentifier: collectionViewTodayIdentifier, for: indexPath) as! TodayWeatherCollectionViewCell
-
-               // Set up cell
+            let cellToday: TodayWeatherCollectionViewCell = collectionView.dequeueReusableCell(withReuseIdentifier: "todayWeatherCell", for: indexPath) as! TodayWeatherCollectionViewCell
+            if let tdf = todayForecast {
+                cellToday.weather = tdf[indexPath.row]
+            }
+            
                return cellToday
            }
 
            else  {
-            let cellTomorrow: TomorrowWeatherCollectionViewCell = collectionView.dequeueReusableCell(withReuseIdentifier: collectionViewTomorrowIdentifier, for: indexPath) as! TomorrowWeatherCollectionViewCell
+            let cellTomorrow: TomorrowWeatherCollectionViewCell = collectionView.dequeueReusableCell(withReuseIdentifier: "tomorrowWeatherCell", for: indexPath) as! TomorrowWeatherCollectionViewCell
 
-               // ...Set up cell
+            if let tmf = tomorrowForecast {
+                    cellTomorrow.weather = tmf[indexPath.row]
+                }
 
                return cellTomorrow
            }

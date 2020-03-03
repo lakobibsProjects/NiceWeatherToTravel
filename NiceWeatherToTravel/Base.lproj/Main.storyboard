@@ -236,6 +236,12 @@
                                             </constraints>
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="50" height="150"/>
+                                        <connections>
+                                            <outlet property="temperatureLable" destination="yK1-Ih-ZYn" id="o47-n7-rTe"/>
+                                            <outlet property="timeLable" destination="ZfB-rX-vCl" id="Fdw-aF-cSd"/>
+                                            <outlet property="weatherImage" destination="WYm-xB-HjV" id="g4B-gH-Yti"/>
+                                            <outlet property="weatherLable" destination="Jmc-A9-RX3" id="8Py-O5-GkG"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
@@ -249,7 +255,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="tomorrowWeatherCell" id="8hV-6H-hKC">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="tomorrowWeatherCell" id="8hV-6H-hKC" customClass="TomorrowWeatherCollectionViewCell" customModule="NiceWeatherToTravel" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="150"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="fzR-Nc-VWa">
@@ -296,6 +302,12 @@
                                             </constraints>
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="50" height="150"/>
+                                        <connections>
+                                            <outlet property="temperatureLable" destination="Ljt-ow-QAk" id="gxV-GV-U0m"/>
+                                            <outlet property="timeLable" destination="KYI-SB-r9B" id="TMd-uS-pgO"/>
+                                            <outlet property="weatherImage" destination="rDS-H0-cPz" id="Mg4-J2-wtQ"/>
+                                            <outlet property="weatherLable" destination="11T-T4-Q9S" id="PJO-iu-YAR"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
