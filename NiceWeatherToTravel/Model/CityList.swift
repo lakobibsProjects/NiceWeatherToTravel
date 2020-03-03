@@ -9,90 +9,13 @@
 import Foundation
 import Alamofire
 import ObjectMapper
-//global bug: do not enter in responseJson escaping
-class CityList{
-    var cities: [ParsedCity]?
-    var cityNames: [String]?
-    //TODO: too long download
-    func GetCities() -> [ParsedCity]{
-        var result: [ParsedCity] = []
-        guard let path = Bundle.main.path(forResource: "city_list", ofType: "json") else { return []}
-        let ralativePath: URL = URL(fileURLWithPath: path)
-        
-        AF.request(
-            ralativePath,
-            method: .get,
-            headers: nil).responseJSON {
-                response in
-                switch response.result{
-                case .success(_):
-                    print("In request")
-                    if let cities = Mapper<CitiesToParse>().map(JSONObject:response.value){
-                        print("In if")
-                        for city in cities.cities!{
-                            result.append(city)
-                        }
-                    }
-                case .failure(let error):
-                    print("\(error)")
-                    }
-
-        }
-
-       return result
-    }
-        func GetCityNames() -> [String]{
-        var result: [String] = []
-        guard let path = Bundle.main.path(forResource: "city_list", ofType: "json") else { return []}
-        let ralativePath: URL = URL(fileURLWithPath: path)
-
-        AF.request(
-            ralativePath,
-            method: .get,
-            headers: nil).responseJSON {
-                response in
-                print ("request engaged")
-                if let cities = Mapper<CitiesToParse>().map(JSONObject:response.value){
-                    print("if engaged")
-                    for city in cities.cities!{
-                        result.append(city.name!)
-                    }
-                }
-
-        }
-
-       return result
-    }
-    
-    private func FillCities(){
-        guard let path = Bundle.main.path(forResource: "city_list", ofType: "json") else { return }
-        let relativePath: URL = URL(fileURLWithPath: path)
-        print("in fillcities")
-        
-        AF.request(
-            relativePath,
-            method: .get,
-            headers: nil).responseJSON {
-                response in
-                print("In request")
-                if let cities = Mapper<CitiesToParse>().map(JSONObject:response.value){
-                    print("In if")
-                    self.cities! = cities.cities!
-                }
-        }
-    }
-    
-    
-    init() {
-        cityNames = GetCityNames()
-        cities = GetCities()
-        print("cities is filled")
-    }
-}
 
 class ParsedCity: Mappable{
     var id: Int?
     var name: String?
+    var country: String?
+    var lat: Double?
+    var lon: Double?
     
     required init?(map: Map) {
         
@@ -101,18 +24,22 @@ class ParsedCity: Mappable{
     func mapping(map: Map) {
         id <- map["id"]
         name <- map["name"]
+        country <- map["country"]
+        lat <- map ["latitude"]
+        lon <- map ["longitude"]
+
     }
 }
 
-class CitiesToParse: Mappable {
-    var cities: [ParsedCity]?
+class RequestedCities: Mappable {
+    var requestedCities: [ParsedCity]?
     
     required init?(map: Map) {
         
     }
     
     func mapping(map: Map) {
-        cities <- map["cities"]
+        requestedCities <- map["data"]
 
     }
 }

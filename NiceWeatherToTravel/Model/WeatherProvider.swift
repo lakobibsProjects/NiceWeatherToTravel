@@ -15,34 +15,42 @@ class WeatherProvider{
     let BASEURL = "api.openweathermap.org/data/2.5/weather?q="
     //string for determinate language of search
     var local: String = "uk"
-    let APIKEY = "&appid=1c9567cd628a4dbe95f10c003ddb3c70"
+    let APIKEY = "9c463500bb9746657580857a9929be10"
     var weatherForecast: WeatherForecast?
+    //var weather: Welcome?
 
     func GetWeatherBySityName(sityName: String) -> WeatherForecast?{
-
         let urlString = "\(BASEURL)\(sityName),\(local),\(APIKEY)"
+        
+        getRequest(urlString: urlString)
+        
+        return weatherForecast ?? nil
+    }
+    
+    func GetWeatherByCoordinates(lon: Double, lat: Double) -> WeatherForecast?{
 
-        AF.request(
-            urlString,
-            method: .get,
-            headers: nil).responseJSON {
-                response in
+        let urlString = "https://api.openweathermap.org/data/2.5/weather?lat=\(lat)&lon=\(lon)&appid=\(APIKEY)"
+
+        getRequest(urlString: urlString)
+        
+        
+        return weatherForecast ?? nil
+    }
+
+    private func getRequest(urlString: String){
+        AF.request(urlString).responseJSON {
+                response in              
             let Forecast = Mapper<WeatherForecast>().map(JSONObject:response.value)
                 self.weatherForecast = Forecast
         }
-
-           return weatherForecast ?? nil
-        }
-            
-
-    
-    
-    init(sityName: String) {
+        
 
     }
     
-    private func KelvinToCelsiusConverter(_ kelvinTemperature: Double) -> Double{
-        return kelvinTemperature - 271.15
+    init() {
+
     }
+    
+
 
 }
