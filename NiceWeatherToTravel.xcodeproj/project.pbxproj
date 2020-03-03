@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		881C677EED2605E2D42982EB /* Pods_NiceWeatherToTravel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ADA7E4DA7E0B76D373E58E4 /* Pods_NiceWeatherToTravel.framework */; };
+		E936A64A240E59EF00479E44 /* CityProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E936A649240E59EF00479E44 /* CityProvider.swift */; };
 		E9544105240D8CA2004A0CA6 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9544104240D8CA2004A0CA6 /* CoreDataStack.swift */; };
 		E9544110240D95C1004A0CA6 /* SightsDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E954410E240D95C1004A0CA6 /* SightsDataModel.xcdatamodeld */; };
 		E9544116240DAAE4004A0CA6 /* Sights.plist in Resources */ = {isa = PBXBuildFile; fileRef = E9544115240DAAE4004A0CA6 /* Sights.plist */; };
@@ -35,6 +36,7 @@
 		453B11272518F68E30753B2D /* Pods-NiceWeatherToTravel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiceWeatherToTravel.debug.xcconfig"; path = "Target Support Files/Pods-NiceWeatherToTravel/Pods-NiceWeatherToTravel.debug.xcconfig"; sourceTree = "<group>"; };
 		4ADA7E4DA7E0B76D373E58E4 /* Pods_NiceWeatherToTravel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NiceWeatherToTravel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7573CD81EC2F5F3BF2CAFB9 /* Pods-NiceWeatherToTravel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiceWeatherToTravel.release.xcconfig"; path = "Target Support Files/Pods-NiceWeatherToTravel/Pods-NiceWeatherToTravel.release.xcconfig"; sourceTree = "<group>"; };
+		E936A649240E59EF00479E44 /* CityProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityProvider.swift; sourceTree = "<group>"; };
 		E9544104240D8CA2004A0CA6 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		E954410F240D95C1004A0CA6 /* SightsDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SightsDataModel.xcdatamodel; sourceTree = "<group>"; };
 		E9544115240DAAE4004A0CA6 /* Sights.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Sights.plist; sourceTree = "<group>"; };
@@ -165,6 +167,7 @@
 				E998AB3024083A8400652A7B /* CityList.swift */,
 				E9602FF2240939930099AC09 /* Weather.swift */,
 				E99223C4240C2B93008B64A9 /* Box.swift */,
+				E936A649240E59EF00479E44 /* CityProvider.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -304,6 +307,7 @@
 				E9544105240D8CA2004A0CA6 /* CoreDataStack.swift in Sources */,
 				E98321C92406CE65003642FC /* SightDescriptionViewController.swift in Sources */,
 				E998AB2B2408218100652A7B /* WeatherViewModel.swift in Sources */,
+				E936A64A240E59EF00479E44 /* CityProvider.swift in Sources */,
 				E998AB2D2408234100652A7B /* SearchViewModel.swift in Sources */,
 				E99223C5240C2B93008B64A9 /* Box.swift in Sources */,
 				E9544110240D95C1004A0CA6 /* SightsDataModel.xcdatamodeld in Sources */,
