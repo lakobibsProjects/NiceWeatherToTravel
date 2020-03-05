@@ -22,6 +22,8 @@ class GeneralWeatherInfo: Mappable{
     }
 }
 
+
+
 class ShortWeather: Mappable{
     var id: Int?
         
@@ -36,7 +38,7 @@ class ShortWeather: Mappable{
 
 class OneTimespanForecast: Mappable{
     var generalInfo: GeneralWeatherInfo?
-    var shortWeather: ShortWeather?
+    var shortWeather: [ShortWeather]?
     var date: String?
     
     var temp: Double {
@@ -52,7 +54,7 @@ class OneTimespanForecast: Mappable{
     var weatherId: Int{
         get{
             if let sh = shortWeather{
-                if let id = sh.id{
+                if let id = sh[0].id{
                     return id
                 }
             }
