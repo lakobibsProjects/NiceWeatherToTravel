@@ -29,7 +29,8 @@ class WeatherProvider{
     
     func GetWeatherByCoordinates(lon: Double, lat: Double) -> WeatherForecast?{
 
-        let urlString = "https://api.openweathermap.org/data/2.5/weather?lat=\(lat)&lon=\(lon)&appid=\(APIKEY)"
+        let urlString = "http://api.openweathermap.org/data/2.5/forecast?lat=\(lat)&lon=\(lon)&appid=\(APIKEY)"
+        
 
         getRequest(urlString: urlString)
         
