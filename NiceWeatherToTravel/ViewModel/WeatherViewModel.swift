@@ -14,6 +14,11 @@ class WeatherViewModel{
     private var forecast: WeatherForecast?
     var todayWeather: [OneTimeSpanWeather] = []
     var tomorrowWeather: [OneTimeSpanWeather] = []
+    var actualForecast: [[OneTimeSpanWeather]] {
+        get{
+            return [todayWeather, tomorrowWeather]
+        }
+    }
     var today: Date
     var tomorrow: Date
     

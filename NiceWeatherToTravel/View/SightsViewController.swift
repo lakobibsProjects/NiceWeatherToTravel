@@ -11,8 +11,6 @@ import CoreData
 
 class SightsViewController: UITableViewController {
     
-    
-    
     var context: NSManagedObjectContext! = (UIApplication.shared.delegate as? AppDelegate)?.coreDataStack.persistentContainer.viewContext
     
     private var sights:[Sight] = []
