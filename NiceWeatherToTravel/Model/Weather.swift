@@ -9,34 +9,19 @@
 import Foundation
 import ObjectMapper
 
-class GeneralWeatherInfo: Mappable{
+class GeneralWeatherInfo: Decodable{
     var temperature: Double?
     
-    required init?(map: Map) {
-        
-    }
-    
-    func mapping(map: Map) {
-        temperature <- map["temp"]
-
+    enum CodingKeys: String, CodingKey {
+        case temperature = "temp"
     }
 }
 
-
-
-class ShortWeather: Mappable{
+class ShortWeather: Decodable{
     var id: Int?
-        
-    required init?(map: Map) {
-        
-    }
-    
-    func mapping(map: Map) {
-        id <- map["id"]
-    }
 }
 
-class OneTimespanForecast: Mappable{
+class OneTimespanForecast: Decodable{
     var generalInfo: GeneralWeatherInfo?
     var shortWeather: [ShortWeather]?
     var date: String?
@@ -62,30 +47,19 @@ class OneTimespanForecast: Mappable{
         }
     }
     
-    
-    required init?(map: Map) {
-        
-    }
-    
-    func mapping(map: Map) {
-        generalInfo <- map["main"]
-        shortWeather <- map["weather"]
-        date <- map["dt_txt"]
+    enum CodingKeys: String, CodingKey {
+        case generalInfo = "main"
+        case shortWeather = "weather"
+        case date = "dt_txt"
     }
 }
 
-class WeatherForecast: Mappable, Any{
+class WeatherForecast: Decodable, Any{
     var fiveDayForecast: [OneTimespanForecast]?
     
-    required init?(map: Map) {
-        
+    enum CodingKeys: String, CodingKey {
+        case fiveDayForecast = "list"
     }
-    
-    func mapping(map: Map) {
-        fiveDayForecast <- map["list"]
-    }
-    
-
 }
 /*
 TODO:

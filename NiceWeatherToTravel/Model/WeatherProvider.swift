@@ -17,7 +17,6 @@ class WeatherProvider{
     var local: String = "uk"
     let APIKEY = "9c463500bb9746657580857a9929be10"
     var weatherForecast: WeatherForecast?
-    //var weather: Welcome?
 
     func GetWeatherBySityName(sityName: String) -> WeatherForecast?{
         let urlString = "\(BASEURL)\(sityName),\(local),\(APIKEY)"
@@ -30,28 +29,24 @@ class WeatherProvider{
     func GetWeatherByCoordinates(lon: Double, lat: Double) -> WeatherForecast?{
 
         let urlString = "http://api.openweathermap.org/data/2.5/forecast?lat=\(lat)&lon=\(lon)&appid=\(APIKEY)"
-        
 
         getRequest(urlString: urlString)
-        
         
         return weatherForecast ?? nil
     }
 
     private func getRequest(urlString: String){
-        AF.request(urlString).responseJSON {
-                response in              
-            let Forecast = Mapper<WeatherForecast>().map(JSONObject:response.value)
-                self.weatherForecast = Forecast
+            if let url = URL(string: urlString){
+            do{
+                let data = try Data(contentsOf: url)
+                self.weatherForecast = try! JSONDecoder().decode(WeatherForecast.self, from: data)
+            } catch is URLError {
+                print("Incorrect url")
+            } catch is CFNetworkErrors{
+                print("Some problems with network connection")
+            } catch {
+                print("Unexpected error when parsing cities")
+            }
         }
-        
-
     }
-    
-    init() {
-
-    }
-    
-
-
 }

@@ -179,12 +179,12 @@
 		E9FB2B4A24056F1700D6A945 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E99223C4240C2B93008B64A9 /* Box.swift */,
 				E9544109240D9539004A0CA6 /* DataCoreEntities */,
-				E998AB272407FEBE00652A7B /* WeatherProvider.swift */,
 				E998AB3024083A8400652A7B /* CityList.swift */,
 				E9602FF2240939930099AC09 /* Weather.swift */,
-				E99223C4240C2B93008B64A9 /* Box.swift */,
 				E936A649240E59EF00479E44 /* CityProvider.swift */,
+				E998AB272407FEBE00652A7B /* WeatherProvider.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
