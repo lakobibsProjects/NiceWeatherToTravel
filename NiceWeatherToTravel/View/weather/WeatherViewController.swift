@@ -49,11 +49,9 @@ class WeatherViewController: UIViewController {
         }
         
         provider = WeatherProvider()
-        weatherForecast = provider?.GetWeatherByCoordinates(lon: city!.lon!, lat: city!.lat!)
+        weatherForecast = provider?.GetWeatherByCoordinates(lon: city!.lon, lat: city!.lat)
         if let city = city{
-            if let lat = city.lat, let lon  = city.lon{
-                location = CLLocation(latitude: lat, longitude: lon)
-            }
+            location = CLLocation(latitude: city.lat, longitude: city.lon)
         }
         if let loc = location{
             centerMapOnLocation(location: loc)

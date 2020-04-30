@@ -13,20 +13,24 @@ import ObjectMapper
 class CityProvider{
     let BASEURL = "http://geodb-free-service.wirefreethought.com/v1/geo/cities?limit=5&offset=0&namePrefix="
     var cities: [ParsedCity]?
-
+    
     func GetSearchedCities(sityName: String) -> [ParsedCity]?{
-
+        
         let urlString = "\(BASEURL)\(sityName)"
-
-        AF.request(
-            urlString,
-            method: .get,
-            headers: nil).responseJSON {
-                response in
-            let mappedCities = Mapper<RequestedCities>().map(JSONObject:response.value)
-                self.cities = mappedCities?.requestedCities
+        if let url = URL(string: urlString){
+            do{
+                let data = try Data(contentsOf: url)
+                let parsedResult: RequestedCities = try! JSONDecoder().decode(RequestedCities.self, from: data)
+                self.cities = parsedResult.requestedCities
+            } catch is URLError {
+                print("Incorrect url")
+            } catch is CFNetworkErrors{
+                print("Some problems with network connection")
+            } catch {
+                print("Unexpected error when parsing cities")
+            }
         }
-
-           return cities ?? nil
-        }
+        
+        return cities ?? nil
+    }
 }

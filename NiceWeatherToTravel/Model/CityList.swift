@@ -10,36 +10,28 @@ import Foundation
 import Alamofire
 import ObjectMapper
 
-class ParsedCity: Mappable{
-    var id: Int?
-    var name: String?
-    var country: String?
-    var lat: Double?
-    var lon: Double?
+class ParsedCity: Decodable{
+    var id: Int
+    var name: String
+    var country: String
+    var lat: Double
+    var lon: Double
     
-    required init?(map: Map) {
-        
-    }
-    
-    func mapping(map: Map) {
-        id <- map["id"]
-        name <- map["name"]
-        country <- map["country"]
-        lat <- map ["latitude"]
-        lon <- map ["longitude"]
-
+    enum CodingKeys: String, CodingKey {
+        case id
+        case name
+        case country
+        case lat = "latitude"
+        case lon = "longitude"
     }
 }
 
-class RequestedCities: Mappable {
-    var requestedCities: [ParsedCity]?
+class RequestedCities: Decodable {
+    let requestedCities: [ParsedCity]?
     
-    required init?(map: Map) {
-        
+    enum CodingKeys: String, CodingKey {
+        case requestedCities = "data"
     }
     
-    func mapping(map: Map) {
-        requestedCities <- map["data"]
-
-    }
 }
+ 
