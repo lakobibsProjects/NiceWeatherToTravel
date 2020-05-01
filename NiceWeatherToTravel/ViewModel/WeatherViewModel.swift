@@ -10,7 +10,6 @@ import Foundation
 import UIKit
 
 class WeatherViewModel{
-    //private var provider: WeatherProvider
     private var forecast: WeatherForecast?
     var todayWeather: [OneTimeSpanWeather] = []
     var tomorrowWeather: [OneTimeSpanWeather] = []
@@ -23,15 +22,14 @@ class WeatherViewModel{
     var tomorrow: Date
     
     //TODO: too mach force execution
-    //TODO: have not correction to timezone
-    init(){
+    init(lon: Double, lat: Double){
         today = Date()
         var tomorrowDateComponents = DateComponents()
         tomorrowDateComponents.day = +1
         tomorrow = Calendar.current.date(byAdding: tomorrowDateComponents, to: today)!
-
+        
         let provider = WeatherProvider ()
-            forecast = provider.weatherForecast ?? nil
+        forecast = provider.GetWeatherByCoordinates(lon: lon, lat: lat) ?? nil
         guard let fiveDayForecast = forecast?.fiveDayForecast else{return}
         
         var aftertomorrowDateComponents = DateComponents()
@@ -40,21 +38,21 @@ class WeatherViewModel{
         
         for wts in fiveDayForecast{
             let formatter = DateFormatter()
-            formatter.dateFormat = "yyy-mm-dd hh:mm:ss"
-            let timeSpanDate = formatter.date(from: wts.date!)
-            
-            let calendar = Calendar.current
-            let components = calendar.dateComponents([.year, .month, .day, .hour], from: timeSpanDate!)
-            let finalDate = calendar.date(from:components)
-            if finalDate! >= aftertomorrow!{
-                return
-            }else if finalDate! < tomorrow {
-                todayWeather.append(OneTimeSpanWeather(forecast: wts))
-            }else if finalDate! < aftertomorrow!{
-                tomorrowWeather.append(OneTimeSpanWeather(forecast: wts))
+            formatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
+            if let date = wts.date{
+                let timeSpanDate = formatter.date(from: date)
+                
+                let calendar = Calendar.current
+                let components = calendar.dateComponents([.year, .month, .day, .hour], from: timeSpanDate!)
+                let finalDate = calendar.date(from:components)
+                if finalDate! >= aftertomorrow!{
+                    return
+                }else if finalDate! < tomorrow {
+                    todayWeather.append(OneTimeSpanWeather(forecast: wts))
+                }else if finalDate! < aftertomorrow!{
+                    tomorrowWeather.append(OneTimeSpanWeather(forecast: wts))
+                }
             }
-            
-            
         }
     }
 }
@@ -69,7 +67,7 @@ class OneTimeSpanWeather{
         if let date = forecast.date{
             self.date = String(String(date.suffix(8)).prefix(5))
         }
-        self.temperature = KelvinToCelsiusConverter (forecast.temp)
+        self.temperature = Double(round(100*KelvinToCelsiusConverter (forecast.temp))/100)
         let id =  forecast.weatherId
         if (id > 800){
             self.skyWeather = "Clouds"
@@ -93,8 +91,6 @@ class OneTimeSpanWeather{
             self.skyWeather = "Thunderstorm"
             weatherImage = UIImage(contentsOfFile: "Thunderstorm")
         }
-        
-        //self.skyWeather = forecast.shortWeather?.name
     }
     
     private func KelvinToCelsiusConverter(_ kelvinTemperature: Double?) -> Double{

@@ -13,7 +13,7 @@ class WeatherViewController: UIViewController {
 
     var city: ParsedCity?
     var provider: WeatherProvider?
-    var vm: WeatherViewModel?
+    var vm: WeatherViewModel? 
     var weatherForecast: WeatherForecast?
     var todayForecast: [OneTimeSpanWeather]?
     var tomorrowForecast: [OneTimeSpanWeather]?
@@ -25,18 +25,11 @@ class WeatherViewController: UIViewController {
     @IBOutlet weak var weatherTableView: UITableView!
     @IBOutlet weak var sightsButton: UIButton!
     
-    
-    
-   
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        vm = WeatherViewModel()
-        
+        vm = WeatherViewModel(lon: city!.lon, lat: city!.lat)
 
         weatherTableView.rowHeight = 180
-        
-       
         
         if let vm = vm  {
             let df = DateFormatter()
@@ -61,7 +54,7 @@ class WeatherViewController: UIViewController {
         
     }
     
-    let regionRadius: CLLocationDistance = 1000
+    let regionRadius: CLLocationDistance = 5000
     func centerMapOnLocation(location: CLLocation) {
         let coordinateRegion = MKCoordinateRegion(center: location.coordinate,
                                                   latitudinalMeters: regionRadius, longitudinalMeters: regionRadius)
@@ -80,8 +73,11 @@ class WeatherViewController: UIViewController {
             city?.name == "Rome" ||
             city?.name == "London" {
             sightsButton.isEnabled = true
+            sightsButton.backgroundColor = #colorLiteral(red: 0, green: 0.4784313725, blue: 1, alpha: 1)
         } else{
             sightsButton.isEnabled = false
+            sightsButton.backgroundColor = #colorLiteral(red: 0, green: 0.3208971259, blue: 0.7602739726, alpha: 1)
+            sightsButton.setTitleColor(#colorLiteral(red: 0.6000000238, green: 0.6000000238, blue: 0.6000000238, alpha: 1), for: .disabled)
         }
     }
     
@@ -130,9 +126,9 @@ extension WeatherViewController: UITableViewDelegate, UITableViewDataSource{
         formatter.dateFormat = "dd MM yyyy"
         if let vm = vm{
         switch section {
-            case 1:
+            case 0:
                 return String("Today: \(formatter.string(from:vm.today))")
-            case 2:
+            case 1:
                 return String("Today: \(formatter.string(from:vm.tomorrow))")
             default:
                 return ""

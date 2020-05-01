@@ -184,7 +184,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="374" height="153"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="sIf-93-bXP">
+                                                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="oneDayWeatherCell" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="sIf-93-bXP">
                                                     <rect key="frame" x="0.0" y="0.0" width="374" height="153"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
