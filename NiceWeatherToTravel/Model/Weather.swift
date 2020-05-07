@@ -61,8 +61,5 @@ class WeatherForecast: Decodable, Any{
         case fiveDayForecast = "list"
     }
 }
-/*
-TODO:
- 1. switch to encodable
- */
+
 

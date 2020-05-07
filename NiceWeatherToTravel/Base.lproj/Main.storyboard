@@ -131,7 +131,6 @@
                                     <color key="titleShadowColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="sightButtonPressed:" destination="5JK-ag-5Ar" eventType="touchUpInside" id="ufJ-DV-QLa"/>
                                     <segue destination="aas-in-WVg" kind="show" identifier="showSights" id="rl3-tr-hHw"/>
                                 </connections>
                             </button>
@@ -315,14 +314,48 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="sightCell" id="BKL-lm-8gI">
-                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="8" reuseIdentifier="sightCell" rowHeight="281" id="BKL-lm-8gI" customClass="SightsTableViewCell" customModule="NiceWeatherToTravel" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="414" height="281"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="BKL-lm-8gI" id="uCy-V0-nVz">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="281"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3rE-Es-tyq">
+                                            <rect key="frame" x="20" y="0.0" width="374" height="155"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jDN-yx-5LP">
+                                            <rect key="frame" x="178.5" y="163" width="57" height="29"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k5k-fy-CKX">
+                                            <rect key="frame" x="20" y="195" width="374" height="76"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="76" id="r5F-0H-BFi"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="3rE-Es-tyq" firstAttribute="leading" secondItem="uCy-V0-nVz" secondAttribute="leadingMargin" id="37B-4S-hYl"/>
+                                        <constraint firstItem="3rE-Es-tyq" firstAttribute="trailing" secondItem="k5k-fy-CKX" secondAttribute="trailing" id="Cc2-Sl-vcO"/>
+                                        <constraint firstItem="k5k-fy-CKX" firstAttribute="top" secondItem="jDN-yx-5LP" secondAttribute="bottom" constant="3" id="E8h-wx-tgP"/>
+                                        <constraint firstItem="3rE-Es-tyq" firstAttribute="trailing" secondItem="uCy-V0-nVz" secondAttribute="trailingMargin" id="OA8-Sn-XPE"/>
+                                        <constraint firstItem="3rE-Es-tyq" firstAttribute="top" secondItem="uCy-V0-nVz" secondAttribute="topMargin" constant="-11" id="hBm-6M-8jy"/>
+                                        <constraint firstItem="jDN-yx-5LP" firstAttribute="centerX" secondItem="k5k-fy-CKX" secondAttribute="centerX" id="mK0-Mc-tAo"/>
+                                        <constraint firstItem="3rE-Es-tyq" firstAttribute="leading" secondItem="k5k-fy-CKX" secondAttribute="leading" id="mM4-pP-dvk"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="k5k-fy-CKX" secondAttribute="bottom" constant="-1" id="qzl-Vv-xzV"/>
+                                        <constraint firstItem="jDN-yx-5LP" firstAttribute="top" secondItem="3rE-Es-tyq" secondAttribute="bottom" constant="8" id="y6P-51-GJM"/>
+                                    </constraints>
                                 </tableViewCellContentView>
                                 <connections>
+                                    <outlet property="sightDescriptionLabel" destination="k5k-fy-CKX" id="wvr-0k-4WH"/>
+                                    <outlet property="sightImageView" destination="3rE-Es-tyq" id="7W1-ud-EaK"/>
+                                    <outlet property="sightNameLabel" destination="jDN-yx-5LP" id="ESo-Ah-nB3"/>
                                     <segue destination="sBf-s4-gvh" kind="show" identifier="showSightsDetail" id="eoe-Jd-EhK"/>
                                 </connections>
                             </tableViewCell>

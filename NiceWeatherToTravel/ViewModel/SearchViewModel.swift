@@ -12,12 +12,9 @@ class SearchViewModel{
     var searchedString: Box<String?> = Box("")
     let cityProvider: CityProvider = CityProvider()
     let sities: [ParsedCity] = []
-    
         
     init(){
-        
         //self.sities = cityProvider.GetSearchedCities(sityName: searchedString)
     }
-       
-        
+
 }

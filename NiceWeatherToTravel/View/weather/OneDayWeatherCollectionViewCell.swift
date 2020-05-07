@@ -10,18 +10,7 @@ import UIKit
 
 class OneDayWeatherCollectionViewCell: UICollectionViewCell {
     
-    var weather: OneTimeSpanWeather?{
-        didSet{
-            guard let weather = weather else {return}
-            weatherLabel?.text = weather.skyWeather
-            timeLabel?.text =  weather.date!
-            if let t = weather.temperature{
-                let temp = String(format:"%.1f", t)
-                temperatureLabel?.text = temp + "ºC"
-            }    
-            weatherImage?.image = weather.weatherImage
-        }
-    }
+    var weather: OneTimeSpanWeather?
     
     @IBOutlet weak var weatherImage: UIImageView!
     @IBOutlet weak var timeLabel: UILabel!
@@ -31,6 +20,4 @@ class OneDayWeatherCollectionViewCell: UICollectionViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
     }
-    
-
 }

@@ -10,7 +10,7 @@ import UIKit
 import MapKit
 
 class WeatherViewController: UIViewController {
-
+    
     var city: ParsedCity?
     var provider: WeatherProvider?
     var vm: WeatherViewModel? 
@@ -18,7 +18,7 @@ class WeatherViewController: UIViewController {
     var todayForecast: [OneTimeSpanWeather]?
     var tomorrowForecast: [OneTimeSpanWeather]?
     var location: CLLocation?
-
+    
     
     @IBOutlet weak var map: MKMapView!
     @IBOutlet weak var cityNameLabel: UILabel!
@@ -28,44 +28,34 @@ class WeatherViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         vm = WeatherViewModel(lon: city!.lon, lat: city!.lat)
-
+        
         weatherTableView.rowHeight = 180
         
         if let vm = vm  {
             let df = DateFormatter()
             df.dateFormat = "dd MMM yyyy"
-           
+            
             todayForecast = vm.todayWeather
             tomorrowForecast = vm.tomorrowWeather
-            
-            
         }
         
         provider = WeatherProvider()
         weatherForecast = provider?.GetWeatherByCoordinates(lon: city!.lon, lat: city!.lat)
         if let city = city{
-            location = CLLocation(latitude: city.lat, longitude: city.lon)
-        }
-        if let loc = location{
-            centerMapOnLocation(location: loc)
+            centerMapOnLocation(location: CLLocation(latitude: city.lat, longitude: city.lon))
         }
         cityNameLabel.text = city?.name
         enableSightsButton()
-        
     }
     
     let regionRadius: CLLocationDistance = 5000
     func centerMapOnLocation(location: CLLocation) {
         let coordinateRegion = MKCoordinateRegion(center: location.coordinate,
                                                   latitudinalMeters: regionRadius, longitudinalMeters: regionRadius)
-            map.setRegion(coordinateRegion, animated: true)
-    }
-
-
-    @IBAction func sightButtonPressed(_ sender: UIButton) {
-        
+        map.setRegion(coordinateRegion, animated: true)
     }
     
+    //TODO: remove hardcode
     private func enableSightsButton(){
         if city?.name == "Kaliningrad" ||
             city?.name == "Moscow" ||
@@ -82,7 +72,6 @@ class WeatherViewController: UIViewController {
     }
     
     // MARK: - Navigation
-
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showSights"{
@@ -103,13 +92,11 @@ class WeatherViewController: UIViewController {
             }            
         }
     }
-    
-
 }
 
+    // MARK: - TableView setup
 extension WeatherViewController: UITableViewDelegate, UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        
         return 1
     }
     
@@ -125,7 +112,7 @@ extension WeatherViewController: UITableViewDelegate, UITableViewDataSource{
         let formatter = DateFormatter()
         formatter.dateFormat = "dd MM yyyy"
         if let vm = vm{
-        switch section {
+            switch section {
             case 0:
                 return String("Today: \(formatter.string(from:vm.today))")
             case 1:
@@ -138,7 +125,6 @@ extension WeatherViewController: UITableViewDelegate, UITableViewDataSource{
     func numberOfSections(in tableView: UITableView) -> Int {
         return 2
     }
-    
 }
 
 

@@ -31,7 +31,6 @@ class RequestedCities: Decodable {
     
     enum CodingKeys: String, CodingKey {
         case requestedCities = "data"
-    }
-    
+    }    
 }
  

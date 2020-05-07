@@ -13,7 +13,6 @@ class OneDayWeatherTableViewCell: UITableViewCell {
     var vm: WeatherViewModel?
     var forecast: [OneTimeSpanWeather]?
     
-    
     @IBOutlet weak var collectionView: UICollectionView!
     
     override func awakeFromNib() {
@@ -21,37 +20,35 @@ class OneDayWeatherTableViewCell: UITableViewCell {
         self.collectionView.delegate = self
         self.collectionView.dataSource = self
     }
-
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
     }
-
+    
 }
 
+// MARK: - CollectionView setup
 extension OneDayWeatherTableViewCell: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         guard let forecast = forecast else { return 0 }
-            return forecast.count
+        return forecast.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        if let cell: OneDayWeatherCollectionViewCell = collectionView.dequeueReusableCell(withReuseIdentifier: "oneTimeSpanWeather", for: indexPath) as? OneDayWeatherCollectionViewCell
-        {
+        if let cell: OneDayWeatherCollectionViewCell = collectionView.dequeueReusableCell(withReuseIdentifier: "oneTimeSpanWeather", for: indexPath) as? OneDayWeatherCollectionViewCell{
             guard let forecast = forecast else {return UICollectionViewCell() }
-            //cell.weather = forecast[indexPath.row]
             if let t = forecast[indexPath.row].temperature{
                 let temp = String(format:"%.1f", t)
                 cell.temperatureLabel.text = temp + "ºC"
             }
-            //cell.temperatureLabel.text = String("\(forecast[indexPath.row].temperature)")
             cell.timeLabel.text = forecast[indexPath.row].date
             cell.weatherImage.image = forecast[indexPath.row].weatherImage
             cell.weatherLabel.text = forecast[indexPath.row].skyWeather
             
             return cell
         }
-            return UICollectionViewCell()
-        }
+        return UICollectionViewCell()
+    }
     
     
     func numberOfSections(in collectionView: UICollectionView) -> Int {

@@ -23,43 +23,29 @@ class SearchViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        
-       // guard let viewModel  = SearchViewModel() else {return}
-        
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         
         searchBar.delegate = self
         searchBar.searchTextField.textColor = UIColor.gray
     }
-
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-    }
-    
-    
-
-    
+        
     // MARK: - Navigation
-
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showWeather"{
             if let indexPath = self.SearchresultTableView.indexPathForSelectedRow{
                 let detailVC = segue.destination as! WeatherViewController
                 detailVC.city = cities[indexPath.row]
             }
-            
         }
     }
-    
-
 }
 
+    // MARK: - SearchBar setup
 extension SearchViewController: UISearchBarDelegate{
+    
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         if let cityPrefix = searchBar.text{
             if let request = provider.GetSearchedCities(sityName: cityPrefix){
@@ -83,12 +69,14 @@ extension SearchViewController: UISearchBarDelegate{
         searchBar.searchTextField.textColor = UIColor.white
         searchBar.showsCancelButton = true
     }
+    
     override func didChangeValue(forKey key: String) {
         SearchresultTableView.reloadData()
     }
     
 }
 
+    // MARK: - TableView setup
 extension SearchViewController: UITableViewDataSource, UITableViewDelegate{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return cities.count
@@ -101,6 +89,4 @@ extension SearchViewController: UITableViewDataSource, UITableViewDelegate{
         
         return cell!
     }
-    
-    
 }
